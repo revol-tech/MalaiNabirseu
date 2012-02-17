@@ -1,0 +1,176 @@
+#main_wrapper{
+    width:100%;
+}
+#banner{
+							height:460px;
+              width:100%;
+							background:url('child3.png')no-repeat  bottom;
+									
+}
+
+
+#wrapper,#main_content{
+					width: 960px;
+					margin: 0 auto;
+					
+}
+
+
+#main_nav{
+    margin:50px 0 0 0;
+}
+
+
+
+
+.title_image{
+							float:right;
+}
+
+
+
+.donate_img{
+    float:right;
+}
+
+
+
+#nav{
+			background-color: #FFFFFF;
+      border-radius: 5px 5px 5px 5px;
+      box-shadow: -1px 0px 9px 7px #dfdfdf;
+      float: right;
+      height: 45px;
+      margin-right: 38px;
+      width: 486px;
+}
+
+
+#nav li{
+					list-style: none;
+					display: inline;
+					margin-right: 7px;
+}
+
+#nav a{
+				text-decoration: none;
+        color:#e24d51;
+        font-weight:bold;
+        font-size:14px;
+}
+
+#mnbg{
+			margin: 10px 0 0 20px;
+}
+
+#title {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    height: 142px;
+    margin-top: 195px;
+    opacity: 0.8;
+    width: 560px;
+ 		overflow:hidden;
+}
+
+
+#title p{
+				margin: -5px 20px 0px 20px;
+				text-align: justify;
+color:#b7b7b7;
+font-size:14px;
+	
+ 
+}
+
+.sub_content{	
+			height: 360px;
+			width:300px;
+			background-color: #deeff6;
+			float: left;
+}
+
+
+
+.content_image{
+    border: 5px solid #FFFFFF;
+    height: 121px;
+    margin: 35px 0 0 15px;
+    width: 250px;
+}
+
+#content {
+    float: left;
+    margin: 36px 30px 0 20px;
+    width: 270px;
+}
+
+.content_text {
+    height: 120px;
+    margin: 0 0 0 5px;
+    padding: 10px;
+    width: 270px;
+background:#fff;
+}
+
+.content_text p{
+						padding: 10px;
+						text-align: justify;
+				color: #777978;
+						font-size:12px;
+}
+
+
+.content_title{
+				padding: 10px 0 0 20px;
+				
+}
+.color_red{
+						height:45px;
+						width: 55px;
+						background-color:#f06b6e;
+						float: right;
+						
+}
+
+.color_blue{
+						height:45px;
+						width: 55px;
+						background-color:#42b2e0;
+						float: right;
+						
+}
+
+.color_yellow{
+						height:45px;
+						width: 55px;
+						background-color:#e0b542;
+						float: right;
+						
+}
+
+#image_slider{
+float:left;
+display:block;
+  width:100%;
+  border-top:6px solid #c1dadf;
+ border-bottom:6px solid #c1dadf;
+margin:30px 0 0 0;
+}
+#children{
+  width:960px;
+  margin:0 auto;
+padding:10px 0 ;
+}
+.child_image{
+ border:3px solid #cfcfcf;
+height:115px;
+width:150px;
+margin:0 0 0 20px;
+
+}
+
+
+
+
