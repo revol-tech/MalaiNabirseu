@@ -1,6 +1,7 @@
 <div id="banner">
-					
+
             <div id="wrapper">
+
                <div id="main_nav">
 									<%= image_tag "donate.png",:class=>"donate_img"%>
                      <div id="nav">
@@ -11,15 +12,16 @@
 										 				<li><%= link_to "events",pages_events_path  %></li>
 										 				<li><%= link_to "chidren",pages_children_path  %></li>
 								      	</ul>
-							      	</div>	<!--end of nav-->		
+							      	</div>	<!--end of nav-->
                             <%= image_tag "logo_title.png",:class=>"title_img"%>
-										
+
              	 </div><!--end of main_nav-->
+             	 <%=render 'slider'%>
 									<div id="title">
 											<%= image_tag "title.png",:id=>"mnbg" %>
 															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia luctus libero quis hendrerit.
 															 Vivamus faucibus orci malesuada nunc viverra mattis. Nunc vel aliquet urna. Maecenas pharetra orci sed dolor gravida </p>
 									</div>   <!--end of title-->
-              
+
 				</div>       <!--end of wrapper-->
 			</div>    <!--end of banner-->
