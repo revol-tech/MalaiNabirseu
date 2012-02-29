@@ -1,4 +1,14 @@
 MalaiNabirseu::Application.routes.draw do
+  get "main/index"
+
+  get "news_events/news_details"
+
+  get "news_events/events_details"
+
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
   get "pages/events"
 
   get "pages/children"
