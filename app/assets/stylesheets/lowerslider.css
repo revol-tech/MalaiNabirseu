@@ -2,10 +2,6 @@
 border:3px solid white;
 }
 
-.prev ,  .anyClass, .next {
-float:left;
-padding-top:15px;
-}
 
 *{
   margin:0;
@@ -19,14 +15,14 @@ padding-top:15px;
   position:relative;
 }
 
-.anyClass li{
+.anyClass li {
     float: left;
     height: 150px;
     list-style: none outside none;
-    margin: 0 12px 0 0;
+     margin: 0 -40px 0 0;
     overflow: hidden;
-    padding-top: 7px;
-    width: 200px;
+    padding-top: 4px;
+    width: 198px;
 }
 
 .img_name{
