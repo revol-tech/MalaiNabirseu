@@ -1,0 +1,35 @@
+.slide{
+border:3px solid white;
+}
+
+.prev ,  .anyClass, .next {
+float:left;
+padding-top:15px;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.anyClass{
+  height: 150px;
+  margin:0 0 0 34px;
+  overflow: hidden;
+  position:relative;
+}
+
+.anyClass li{
+    float: left;
+    height: 150px;
+    list-style: none outside none;
+    margin: 0 12px 0 0;
+    overflow: hidden;
+    padding-top: 7px;
+    width: 200px;
+}
+
+.img_name{
+   z-index:1;
+   top:100px;
+}
