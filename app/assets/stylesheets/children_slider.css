@@ -17,16 +17,17 @@
 		background:url('vertical_line.png') no-repeat right bottom;
 }
 
-#children{
-    margin: 2px 0 0 0;
-}
 
 .next {
     background: url("vertical_line.png") no-repeat scroll left bottom transparent;
     float: right;
     height: 94px;
-    margin: 15px 10px 0 0;
+   margin: -130px 10px 0 0;
     width: 28px;
+}
+
+.next_image{
+			float: right;
 }
 
 
