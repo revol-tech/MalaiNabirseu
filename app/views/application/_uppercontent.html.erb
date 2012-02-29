@@ -7,39 +7,63 @@
 															<a class="more_red" href="#"></a>
 										</div>		<!--end of upper_image-->
 										<div class="content_image">
-										</div>	<!--end of content_image-->
+                        <% @whoweare.each do |t| %>
+									         <li><%= image_tag "#{t.who_image}", :width=>"250",:height=>"auto"%></li>
+									      <%end%>
+                    </div>	<!--end of content_image-->
 										<div class="content_text">
-				                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia luctus libero quis hendrerit.
-																	 Vivamus faucibus orci malesuada nunc viverra mattis. Nunc vel aliquet urna. Maecenas pharetra orci sed dolor gravida </p>
-	                  </div>	<!--end of content_text-->
-
- 				</div>	 <!--end of content-->
+										  <% @whoweare.each do |t| %>
+									       <p><%= t.who_desc%></p>
+									     <%end%>
+                   </div>
+          </div>	 <!--end of content-->
  				<div class="content">
 
 									 	<div class="upper_image">
 															<%= image_tag "whatwedo.png",:class=>"content_title" %>
 															<a class="more_blue" href="#"></a>
 										</div>
+
 										<div class="content_image">
+										<% @whatwedo.each do |t| %>
+									  <li><%= image_tag "#{t.what_we_do_image}", :width=>"250",:height=>"auto"%></li>
+									<%end%>
 										</div>
+
 										<div class="content_text">
-				                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia luctus libero quis hendrerit.
-																	 Vivamus faucibus orci malesuada nunc viverra mattis. Nunc vel aliquet urna. Maecenas pharetra orci sed dolor gravida </p>
+				          <% @whatwedo.each do |t| %>
+									  <p><%= t.what_we_do_desc%></p>
+									<%end%>
 	                  </div>	<!--end of content_text-->
 
+
  						</div>	 <!--end of content-->
-  <div class="content" style="margin:30px 0 0 0;">
+
+
+
+
+
+  <div class="content">
+
 
 									 	<div class="upper_image">
 															<%= image_tag "howtohelp.png",:class=>"content_title" %>
 															<a  class="more_yellow" href="#"></a>
 										</div>
+
 										<div class="content_image">
+										<% @howtohelp.each do |t| %>
+									  <li><%= image_tag "#{t.how_image}", :width=>"250",:height=>"auto"%></li>
+									<%end%>
 										</div>
+
 										<div class="content_text">
-				                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia luctus libero quis hendrerit.
-																	 Vivamus faucibus orci malesuada nunc viverra mattis. Nunc vel aliquet urna. Maecenas pharetra orci sed dolor gravida </p>
+				                     <% @howtohelp.each do |t| %>
+									  <p><%= t.how_desc%></p>
+									<%end%>
 	                  </div>	<!--end of content_text-->
+
+
 
  						</div>	 <!--end of content-->
 			</div>

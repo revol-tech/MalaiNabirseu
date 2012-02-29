@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
   def index
+    @whoweare = WhoWeAre.all()
+     @whatwedo = WhatWeDo.all()
+     @howtohelp = HowToHelp.all()
   end
 
   def about_us
