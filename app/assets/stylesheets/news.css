@@ -3,10 +3,11 @@
     box-shadow: 0 0 13px 0 #767676 inset;
     display: block;
     float: left;
-    height: 360px;
 
-    margin: 25px 0 0 0;
+    height: 350px;
     width: 310px;
+		margin: 0px 15px 0 0px;
+
 }
 
 .news_image{

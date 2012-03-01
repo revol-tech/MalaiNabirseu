@@ -38,7 +38,7 @@ display:block;
 float:left;
 width:100%;
 
-margin:0 0 20px 0;				
+margin:0 0 20px 0;
 
 }
 
@@ -64,7 +64,7 @@ background:url("more_Hover.png") no-repeat left top;
 .more_red{
 		float: right;
 		height: 47px;
-		width:50px; 
+		width:50px;
 display:block;
 background:url("more_1_Bg.png") no-repeat left top;
 }
@@ -74,7 +74,7 @@ background:url("more_Hover.png") no-repeat left top;
 .more_blue{
 		float: right;
 		height: 47px;
-		width:50px; 
+		width:50px;
 display:block;
 background:url("more_2_Bg.png") no-repeat left top;
 }
@@ -86,7 +86,7 @@ background:url("more_Hover.png") no-repeat left top;
 		height: 47px;
 		width:50px;
 
-display:block; 
+display:block;
 
 background:url("more_3_Bg.png") no-repeat left top;
 }
@@ -125,19 +125,4 @@ float:left;
 		display:block;
 height:84px;
 overflow:hidden;
-}
-
-/*......lowercontents.....*/
-
-#lower_content{
-				width: 100%;
-				display: block;
-				float: left;
-				background: url('lower_Container_Bg.png') repeat-x left top;
-				height:403px;
-}
-
-#sub_lower_content{
-  width:960px;
-  margin:0 auto;
 }

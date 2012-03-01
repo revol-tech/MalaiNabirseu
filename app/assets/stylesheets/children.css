@@ -1,65 +1,3 @@
-#image_slider{
-				float:left;
-				display:block;
-  			width:100%;
-				height:144px;
-  			border-top:5px solid #c0dade;
- 				border-bottom:5px solid #c0dade;
-
-				background:url('sliderwrapper_Bg.png')repeat-x left;
-				box-shadow: 0px 0px 10px 0px #888888;
-}
-
-
-.prev {
-    background: url("vertical_line.png") no-repeat scroll right bottom transparent;
-    float: left;
-    height: 94px;
-    margin: 13px 0 0 0;
-    width: 28px;
-}
-
-
-.next {
-    background: url("vertical_line.png") no-repeat scroll left bottom transparent;
-    float: right;
-    height: 94px;
-   margin: -130px 10px 0 0;
-    width: 28px;
-}
-
-.next_image{
-			float: right;
-}
-
-
-.next_image{
-   float:right;
-}
-
-
-
-#children_slider{
-  width:960px;
-  margin:0 auto;
-	padding:10px 0 132px 0 ;
-}
-
-
-
-.child_image {
-    border: 3px solid #CFCFCF;
-    float: left;
-    height: 115px;
-    margin: 0 0 0 21px;
-    width: 149px;
-}
-
-
-
-/*...END OF children slider...*/
-
-
 #child {
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px;
@@ -129,4 +67,34 @@
     float: right;
     margin: 25px 25px 0 0;
     width: 470px;
+}
+
+
+.alisha_image{
+					display: block;
+					width: 470px;
+					height: 290px;
+					margin-top: 20px;
+}
+
+#image_text{
+		display:block;
+		overflow:hidden;
+}
+
+#image_text h1{
+				display: block;
+				font-size: 15px;
+				color:#f65f66;
+}
+
+#image_text p{
+			display: block;
+			font: 12px/18px "arial";
+			font-size:14px;
+			color: #6f6f6f;
+}
+
+.readmore{
+			display: block;
 }

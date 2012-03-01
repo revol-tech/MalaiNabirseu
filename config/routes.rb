@@ -34,7 +34,7 @@ MalaiNabirseu::Application.routes.draw do
   get "pages/update"
 
   get "pages/about_us"
-	
+
 	resources :pages
 
   # The priority is based upon order of creation:
