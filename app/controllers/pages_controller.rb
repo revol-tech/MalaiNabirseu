@@ -3,6 +3,8 @@ class PagesController < ApplicationController
     @whoweare = WhoWeAre.all()
      @whatwedo = WhatWeDo.all()
      @howtohelp = HowToHelp.all()
+      @children = ChildrenSlider.all()
+       @news = News.all()
   end
 
   def about_us

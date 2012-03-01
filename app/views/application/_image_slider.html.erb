@@ -7,21 +7,9 @@
 
 <div class="anyClass" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 830px;">
     <ul style='width:2000px;'>
-        <li><a href="#"><%= image_tag "children-alisha.jpg" , :alt=>""  , :class=>"child_image" %></a>
-          <span class='img_name'>name 1</span>
-        </li>
-        <li><a href="#"><%= image_tag "children-anita.jpg" , :alt=>"" , :class=>"child_image" %></a>
-          <span class='img_name'>name 2</span>
-        </li>
-        <li><a href="#"><%= image_tag "children-babita.jpg" , :alt=>"" ,  :class=>"child_image" %></a>
-          <span class='img_name'>name 3</span>
-        </li>
-        <li><a href="#"><%= image_tag "children-namrata.jpg" , :alt=>"" , :class=>"child_image" %></a>
-          <span class='img_name'>name 4</span>
-        </li>
-        <li><a href="#"><%= image_tag "aaa.jpg" , :alt=>"" ,:class=>"child_image" %></a>
-          <span class='img_name'>name 5</span>
-        </li>
+        <% @children.each do|t| %>
+	   	                      <li><%= image_tag "#{t.child_image}",:width=>"145",:height=>"auto" %></li>
+	                    <%end%>
 
 
      </ul>
@@ -30,5 +18,5 @@
     				</div>   <!--end of children-->
 							 	</div>
 
-					
+
 </div>		<!--end of image_slider-->	

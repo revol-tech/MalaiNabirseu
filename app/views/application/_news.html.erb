@@ -1,17 +1,26 @@
-	<div id="news">
+<div id="news">
 							<div class="image_tag">
 									<%= image_tag "news.png" %>
 							</div>	<!--end of image_tag-->
 							<div class="news_image">
-					<%= image_tag "freinds.jpg",:class=>"freinds" %>
+							   <div class="image">
+									<% @news.each do |t| %>
+									   <%= image_tag "#{t.news_image}", :width=>"95",:height=>"auto"%>
+								    <%end%>
+								    </div>
 									<div class="news_text">
 										<div class="strong">
-											<strong>Latest news 1 is a text for test topic so who's it</strong>
+											<strong><% @news.each do |t| %>
+									         <p><%= t.news_title%></p>
+									      <%end%></strong>
 										</div>		<!--end of strong-->
 
 
 									<div class="latest_news">
-Latest news 1 is a text for test topic so who's it. Latest news 1 is a test for test topic so who's it. Latest......
+												<p>	<% @news.each do |t| %>
+									          <p><%= t.news_desc%></p>
+								        	<%end%>
+												</p>
 									</div>		<!--end of latest-news-->
 										<div class="read_more">
 											<strong>read more</strong>
@@ -19,22 +28,6 @@ Latest news 1 is a text for test topic so who's it. Latest news 1 is a test for 
 
 								</div>	<!--end of news_text-->
 							</div>		<!--end of news_image-->
-<div class="news_image">
-									<%= image_tag "freinds.jpg",:class=>"freinds" %>
-									<div class="news_text">
-										<div class="strong">
-											<strong>Latest news 1 is a text for test topic so who's it</strong>
-										</div>		<!--end of strong-->
 
-
-									<div class="latest_news">
-													Latest news 1 is a text for test topic so who's it. Latest news 1 is a test for test topic so who's it. Latest......
-									</div>		<!--end of latest-news-->
-										<div class="read_more">
-											<strong>read more</strong>
-										</div>		<!--end of strong-->
-
-								</div>	<!--end of news_text-->
-							</div>		<!--end of news_image-->
 
 				</div>		<!--end of news-->
