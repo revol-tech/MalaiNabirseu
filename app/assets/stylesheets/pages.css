@@ -1,99 +1,30 @@
 
 
 
-
-
-
-/*...NAVIGATION...*/
-#navigation{
-  width:100%;
-  display:block;
-  background:#fff;
-  height:100px;
-  margin:30px 0 0 0;
-}
-#navigation_content{
- width:960px;
- margin:0 auto;
-}
-#main_nav{
-
-    position:relative;
-
-}
-
-
-
-
-.title_img{
-				float:right;
-				margin:8px 20px 0 0;
-}
-
-
-
-.donate_img{
-    float:right;
-    margin:20px 0 0 0;
-}
-
-
-
-#nav{
-   background:url("menu_Bg.png") no-repeat;
-
-   float: right;
-   height: 103px;
-   margin-right: 20px;
-   width:508px;
-}
-
-
-#nav ul{
-		list-style: none;
-		margin:30px 0 0 0;
-}
-
-
-
 #wrapper,#main_activities{
 					width: 960px;
 					margin: 0 auto;
 }
-
-#nav li{
-		display: inline;
-		padding:15px 0 0 25px;
-}
-#nav a{
-		text-decoration: none;
-    color:#767676;
-    font:bold 13px 'arial',serif;
-
-}
-
-#nav a:hover{
-		color: #e03d42;
-}
-
-
-/*...END OF NAVIGATION...*/
 
 
 .fb_image {
     padding: 15px 0 10px 14px;
 }
 
+
 #facebook_like,#get_involved {
+
     background-color: #FFFFFF;
     box-shadow: 0 0 13px 0 #767676 inset;
     display: block;
     float: left;
     width: 310px;
     height: 360px;
-		margin: 20px 15px 0 0;
-}
 
+    margin: 25px 15px 0 0;
+    width: 310px;
+
+}
 
 
 .get_involved_title{

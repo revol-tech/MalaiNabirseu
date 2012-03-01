@@ -1,11 +1,12 @@
-#news{
-		background-color: #FFFFFF;
-		box-shadow: 0 0 13px 0 #767676 inset;
+#news {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 13px 0 #767676 inset;
     display: block;
     float: left;
     height: 360px;
+
+    margin: 25px 0 0 0;
     width: 310px;
-		margin: 20px 0 0 0px;
 }
 
 .news_image{
@@ -54,6 +55,7 @@
 		float:right;
 		color: #ee5e75;
 		font-size: 11px;
+		display:block;
 }
 
 .freinds {
