@@ -1,10 +1,6 @@
 ActiveAdmin.register HowToHelp do
      controller do
       # This code is evaluated within the controller class
-  def new
-        @how = HowToHelp.new()
-        # Instance method
-      end
 
       def update
         @how = HowToHelp.find(params[:id])

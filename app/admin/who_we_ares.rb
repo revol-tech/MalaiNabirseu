@@ -3,10 +3,6 @@ ActiveAdmin.register WhoWeAre do
   controller do
       # This code is evaluated within the controller class
 
-      def new
-        @Who =  WhoWeAre.new()
-        # Instance method
-      end
 
       def update
         @Who =  WhoWeAre.find(params[:id])

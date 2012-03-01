@@ -1,10 +1,6 @@
 ActiveAdmin.register ChildrenSlider do
      controller do
       # This code is evaluated within the controller class
-          def new
-        @child =  ChildrenSlider.new()
-        # Instance method
-      end
 
       def update
         @child =  ChildrenSlider.find(params[:id])

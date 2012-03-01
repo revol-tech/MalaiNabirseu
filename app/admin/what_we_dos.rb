@@ -1,10 +1,6 @@
 ActiveAdmin.register WhatWeDo do
  controller do
       # This code is evaluated within the controller class
-  def new
-        @What =  WhatWeDo.new()
-        # Instance method
-      end
 
       def update
         @What =  WhatWeDo.find(params[:id])
