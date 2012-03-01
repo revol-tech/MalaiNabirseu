@@ -8,7 +8,7 @@
 						</div>		<!--end of upper_image-->
 						<div class="content_image">
                  <% @whoweare.each do |t| %>
-									   <li><%= image_tag "#{t.who_image}", :width=>"250",:height=>"auto"%></li>
+									  <%= image_tag "#{t.who_image}", :width=>"260",:height=>"auto"%>
 								 <%end%>
             </div>	<!--end of content_image-->
 					  <div class="content_text">
@@ -24,7 +24,7 @@
 						 </div>
              <div class="content_image">
 								<% @whatwedo.each do |t| %>
-									  <li><%= image_tag "#{t.what_we_do_image}", :width=>"250",:height=>"auto"%></li>
+									 <%= image_tag "#{t.what_we_do_image}", :width=>"260",:height=>"auto"%>
 								<%end%>
 						 </div>
              <div class="content_text">
@@ -40,7 +40,7 @@
 						</div>
             <div class="content_image">
 							<% @howtohelp.each do |t| %>
-								 <li><%= image_tag "#{t.how_image}", :width=>"250",:height=>"auto"%></li>
+								 <%= image_tag "#{t.how_image}", :width=>"260",:height=>"auto"%>
 							<%end%>
 						</div>
             <div class="content_text">

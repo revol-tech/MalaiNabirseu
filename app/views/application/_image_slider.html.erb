@@ -6,10 +6,10 @@
 
 								<div class="prev"><%= image_tag "prev.png"%></div>
 
-<div class="anyClass" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 860px;">
+<div class="anyClass" >
     <ul style='width:2000px;'>
         <% @children.each do|t| %>
-	   	                      <li><%= image_tag "#{t.child_image}",:width=>"145",:height=>"120" %></li>
+	   	                      <li><%= image_tag "#{t.child_image}",:class=>"border_img",:width=>"141",:height=>"116" %></li>
 	                    <%end%>
 
 

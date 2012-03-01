@@ -13,6 +13,12 @@ border:3px solid white;
   margin:0 0 0 34px;
   overflow: hidden;
   position:relative;
+  visibility: visible;
+  overflow: hidden;
+   z-index: 2;
+    left: 0px;
+    width: 860px;
+
 }
 
 .anyClass li {
@@ -23,6 +29,9 @@ border:3px solid white;
     overflow: hidden;
     padding-top: 4px;
     width: 198px;
+}
+.border_img{
+ border:3px solid white;
 }
 
 .img_name{

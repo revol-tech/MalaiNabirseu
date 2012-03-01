@@ -22,10 +22,8 @@
     display: block;
     float: left;
     height: 348px;
-
     margin: 30px 30px 0 0;
     width: 300px;
-
 	 background:url('container_1_Bg.png') repeat-x left top;
 }
 
@@ -37,9 +35,7 @@
 display:block;
 float:left;
 width:100%;
-
 margin:0 0 20px 0;
-
 }
 
 
@@ -48,18 +44,6 @@ margin:0 0 20px 0;
 				float: left;
 
 }
-
-.more_red{
-		float: right;
-		height: 47px;
-		width:50px;
-display:block;
-background:url("more_1_Bg.png") no-repeat left top;
-}
-.more_red:hover{
-background:url("more_Hover.png") no-repeat left top;
-}
-
 
 .more_red{
 		float: right;
@@ -85,9 +69,7 @@ background:url("more_Hover.png") no-repeat left top;
 		float: right;
 		height: 47px;
 		width:50px;
-
 display:block;
-
 background:url("more_3_Bg.png") no-repeat left top;
 }
 .more_yellow:hover{
@@ -98,21 +80,19 @@ background:url("more_Hover.png") no-repeat left top;
     height: 121px;
 		float:left;
     margin: 0px 0 20px 10px;
-
     width: 260px;
-
+    overflow:hidden;
 }
 
 
 .content_text {
   	background:url('container_2_Bg.png') repeat-x left top;
     margin:0px 0 0 10px;
-
     width: 280px;
-
 height:120px;
 		float:left;
 		display:block;
+		overflow:hidden;
 
 }
 
@@ -124,5 +104,5 @@ height:120px;
 float:left;
 		display:block;
 height:84px;
-overflow:hidden;
+
 }
