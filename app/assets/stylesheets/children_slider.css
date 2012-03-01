@@ -2,8 +2,9 @@
 				float:left;
 				display:block;
   			width:100%;
-  			border-top:6px solid #c2d9df;
- 				border-bottom:6px solid #c2d9df;
+				height:144px;
+  			border-top:5px solid #c0dade;
+ 				border-bottom:5px solid #c0dade;
 				
 				background:url('sliderwrapper_Bg.png')repeat-x left;
 }
@@ -12,17 +13,24 @@
 		width:28px;
 		height:94px;
     float:left;
-		margin:13px 0 0 20px;
+		margin: 15px 10px 0 0;
 		background:url('vertical_line.png') no-repeat right bottom;
 }
 
+
 .next {
+    background: url("vertical_line.png") no-repeat scroll left bottom transparent;
     float: right;
     height: 94px;
-    margin: 13px 0 0 20px;
+   margin: -130px 10px 0 0;
     width: 28px;
-		background:url('vertical_line.png') no-repeat left bottom;
 }
+
+.next_image{
+			float: right;
+}
+
+
 .next_image{
    float:right;
 }
@@ -46,3 +54,111 @@
 
 }
 
+
+
+/*...END OF children slider...*/
+
+
+
+#child {
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 12px 0 #888888;
+    display: block;
+    height: 640px;
+    margin: 15px auto 0;
+    width: 960px;
+}
+
+
+
+#children_content {
+    display: block;
+    float: left;
+    margin: 5px 0 50px 20px;
+    width: 420px;
+}
+
+#children_content ul{
+				background: #c6c6c6;
+				list-style:none;
+				border-radius: 10px;
+				height: 115px;
+				display: block;
+				overflow: hidden;
+}
+
+
+
+
+
+#children_content h1 {
+		display: block;
+    border-bottom: 2px solid #a6a4a5;
+    margin: 10px 7px 0 -30px;
+		color: #fffeff;
+}
+
+#children_content li p {
+						display: block;
+						margin: 5px 0 0 -30px;
+						font: 12px/18px "arial";
+						color: #6f6f6f;
+						
+}
+
+.leftbutton{
+				width: 70px;
+				height: 75px;
+				float: left;
+				display:block;
+}
+
+
+.rightbutton{
+				width: 70px;
+				height: 75px;
+				float: right;
+				display:block;
+}
+
+
+#children_image {
+		display: block;
+    border-top: 25px solid #F36363;
+    float: right;
+    margin: 25px 25px 0 0;
+    width: 470px;
+}
+
+
+.alisha_image{
+					display: block;
+					width: 470px;
+					height: 290px;
+					margin-top: 20px;
+}
+
+#image_text{
+		display:block;
+		overflow:hidden;
+}
+
+#image_text h1{
+				display: block;
+				font-size: 15px;
+				color:#f65f66;
+}
+
+#image_text p{
+			display: block;
+			font: 12px/18px "arial";
+			font-size:14px;
+			color: #6f6f6f;
+}
+
+.read_more{
+			display: block;
+			width: 475px
+			height: 72px;
+}

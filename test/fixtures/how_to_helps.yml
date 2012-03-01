@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  how_image: MyString
+  how_desc: MyString
+
+two:
+  how_image: MyString
+  how_desc: MyString

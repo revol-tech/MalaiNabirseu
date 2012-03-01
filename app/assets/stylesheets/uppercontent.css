@@ -1,6 +1,8 @@
 #main_content{
 					width: 960px;
 					margin: 0 auto;
+					height:446px;
+					display:block;
 }
 
 
@@ -10,76 +12,111 @@
    width:100%;
 	 float:left;
 	 display:block;
-   background:url('upper_Content_Wrapper.png') repeat-x left;
+   background:url('upper_Content_Wrapper_Bg.png') repeat-x left;
+	 height:446px;
+	 overflow:hidden;
 }
 
 .content {
- 
+
     display: block;
     float: left;
-    
-    height: 400px;
-    margin: 35px 20px 0 0;
-    width: 300px;
+    height: 348px;
+    margin: 30px 0px 0 0;
+    width: 290px;
+	 background:url('container_1_Bg.png') repeat-x left top;
 }
 
 
-.sub_content{	
-	
-			width:300px;
-			float: left;
-			background:url('container_1_Bg.png') repeat-x left top;
-}
+
 
 .upper_image{
-				height:70px;
+				height:47px;
 display:block;
 float:left;
 width:100%;
-				
+margin:0 0 20px 0;
 }
 
 
 .content_title{
-				padding: 10px 0 0 20px;
+				padding: 19px 0 0 10px;
 				float: left;
-				
-}
- 
-.more{
-		float: right;
+
 }
 
+.more_red{
+		float: right;
+		height: 47px;
+		width:50px;
+display:block;
+background:url("more_1_Bg.png") no-repeat left top;
+}
+.more_red:hover{
+background:url("more_Hover.png") no-repeat left top;
+}
+.more_blue{
+		float: right;
+		height: 47px;
+		width:50px;
+display:block;
+background:url("more_2_Bg.png") no-repeat left top;
+}
+.more_blue:hover{
+background:url("more_Hover.png") no-repeat left top;
+}
+.more_yellow{
+		float: right;
+		height: 47px;
+		width:50px;
+display:block;
+background:url("more_3_Bg.png") no-repeat left top;
+}
+.more_yellow:hover{
+background:url("more_Hover.png") no-repeat left top;
+}
 .content_image{
     border: 10px solid #FFFFFF;
-    height: 120px;
+    height: 121px;
 		float:left;
-    margin: 0px 0 0 15px;
+    margin: 0px 0 20px 10px;
     width: 250px;
+    overflow:hidden;
 }
 
 
 .content_text {
   	background:url('container_2_Bg.png') repeat-x left top;
-    margin:20px 0 0 15px;
+    margin:0px 0 0 10px;
     width: 270px;
+height:120px;
 		float:left;
 		display:block;
-	
+
 }
 
 .content_text p{
-						padding: 10px;
+						padding: 0px 10px 10px 10px;
 						text-align: justify;
 						color: #777978;
-						font-size:12px;
+						font:normal 12px/18px "arial";
+float:left;
+		display:block;
+height:84px;
+overflow:hidden;
 }
 
 /*......lowercontents.....*/
+
+#lower_content{
+				width: 100%;
+				display: block;
+				float: left;
+				background: url('lower_Container_Bg.png') repeat-x left top;
+				height:403px;
+}
 
 #sub_lower_content{
   width:960px;
   margin:0 auto;
 }
-
-

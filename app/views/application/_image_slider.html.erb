@@ -1,19 +1,23 @@
 <div id="image_slider">
 				<div id="children_slider">
-					<div class="prev">
-         	<%= image_tag "prev.png" %>
-					</div>
-					 	
-            <div id="children">
-							
-								<%= image_tag "children-alisha.jpg",:class=>"child_image" %>
-								<%= image_tag "children-alisha.jpg",:class=>"child_image" %>
-								<%= image_tag "children-alisha.jpg",:class=>"child_image" %>
-								<%= image_tag "children-alisha.jpg",:class=>"child_image" %>
-								<%= image_tag "children-alisha.jpg",:class=>"child_image" %>
-    				</div>   <!--end of children-->	
-						<div class="next">
-           		<%= image_tag "next.png",:class=>"next_image" %>
-						</div>
-						</div>     
+
+
+					    <div id="children">
+
+								<div class="prev"><%= image_tag "prev.png"%></div>
+
+<div class="anyClass" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 860px;">
+    <ul style='width:2000px;'>
+        <% @children.each do|t| %>
+	   	                      <li><%= image_tag "#{t.child_image}",:width=>"145",:height=>"120" %></li>
+	                    <%end%>
+
+
+     </ul>
+</div>
+<div class="next"><%= image_tag "next.png",:class=>"next_image" %></div>
+    				</div>   <!--end of children-->
+							 	</div>
+
+
 </div>		<!--end of image_slider-->	
