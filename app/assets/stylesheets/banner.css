@@ -1,10 +1,8 @@
 
 #banner{
-			height:500px;
-      width:100%;
 			border-bottom:4px solid #eaebed;
-
 			float:left;
 			display:block;
-			background:black;
+			background:#fff;
+			height:500px;
 }

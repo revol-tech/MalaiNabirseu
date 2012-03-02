@@ -8,7 +8,7 @@ border:3px solid white;
   padding:0;
 }
 
-.anyClass{
+.manyClass{
   height: 150px;
   margin:0 0 0 34px;
   overflow: hidden;
@@ -21,7 +21,7 @@ border:3px solid white;
 
 }
 
-.anyClass li {
+.manyClass li {
     float: left;
     height: 150px;
     list-style: none outside none;
