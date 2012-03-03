@@ -8,8 +8,9 @@ border:3px solid white;
   padding:0;
 }
 
-.manyClass{
-  height: 150px;
+
+.anyClass{
+  height: 144px;
   margin:0 0 0 34px;
   overflow: hidden;
   position:relative;
@@ -23,12 +24,13 @@ border:3px solid white;
 
 .manyClass li {
     float: left;
-    height: 150px;
+    height: 144px;
     list-style: none outside none;
-     margin: 0 -25px 0 0;
+     margin: 8px -25px 0 0;
     overflow: hidden;
     padding-top: 4px;
     width: 198px;
+
 }
 .border_img{
  border:3px solid white;
