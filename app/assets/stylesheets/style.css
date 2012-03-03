@@ -1,35 +1,4 @@
 
-.slide{
-  border:3px solid white;
-}
-
-*{
-  margin:0;
-  padding:0;
-}
-
-.anyClass{
-  height:500px;
-  /*margin:0 0 0 34px;*/ /* i changed this margin to the margin below*/
-  margin:0;
-  overflow: hidden;
-  position:relative;
-}
-
-.anyClass li{
-    float: left;
-
-    list-style: none outside none;
-
-    overflow: hidden;
-    padding: 0;
-    width: 210px;
-}
-
-.img_name{
-   z-index:1;
-   top:100px;
-}
 *{
 	margin:0;
 	padding:0;
@@ -287,6 +256,12 @@ color:#707070;
 				font-size: 16px;
 				color:#f36363;
 }
+
+
+
+
+
+
 
 
 
