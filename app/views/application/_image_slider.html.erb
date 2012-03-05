@@ -14,18 +14,18 @@
 							</div>
 												<div id="children">
 														<div class="anyClass" >
-    														<ul style= "width:2000px;">
+    														<ul>
         															<% @children.each do|t| %>
 	   <li><%= image_tag "#{t.child_image}",:class=>"border_img",:width=>"141",:height=>"116" %></li>
 	                    <% end %>
 
 															 </ul>
-													</div>
+													</div>		<!--end of anyclass-->
+											</div>		<!--end of children-->
 													<div class="next">
 															<div class="last_image">
 																	<%= image_tag "next_Btn.png",:class=>"next_image" %>
 															</div>
-													</div>
-    				</div>   <!--end of children-->
+												</div>   
 			</div>		<!--end of children_slider-->
 </div>		<!--end of image_slider-->	

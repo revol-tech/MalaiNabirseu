@@ -1,0 +1,168 @@
+#main_getinvolved{
+  width:960px;
+  margin:0 auto;
+	margin-top: 40px;
+}
+
+
+
+#getinvolved_image{
+  float:left;
+	display:block;
+	height:500px;
+	width:301px;
+	margin-right:100px;
+}
+
+#getinvolved_text{
+				display: block;
+			
+				height:500px;
+		
+
+}
+
+#getinvolved_text h1{
+				display: block;
+				color: #f36363;
+}
+
+.news1_image{
+			display:block;
+			margin: 20px;
+}
+
+
+#getinvolved_bottom_border{
+				display: block;
+				width:100%;
+				height:41px;
+				color:#42b2e0;
+}
+
+
+/*-----css of lowercontent-----*/
+
+#get_involved {
+    background-color: #FFFFFF;
+    display: block;
+    float: left;
+    width: 310px;
+    height: 350px;
+
+}
+
+.get_involved_title{
+    border-bottom: 5px solid #CFCFCF;
+    padding: 15px 0 10px 25px;
+    width:285px;
+    height:25px;
+    display:block;
+    float:left;
+}
+
+#get_involved_content{
+	  display: block;
+    float: left;
+    height: 350px;
+    width: 310px;
+
+}
+
+#get_involved_image{
+						background:url('aaa.png') no-repeat left top;
+						width:280px;
+						height:290px;
+						display:block;
+						padding:0px 15px;
+						float:left;
+}
+
+#get_involved_text {
+    height:117px;
+    width: 260px;
+    display:block;
+    background-color:#efefef;
+
+    opacity: 0.85;
+    margin:10px 0 0 0;
+  padding:18px 10px 10px 10px;
+
+
+}
+
+
+
+
+
+
+#get_involved_text p {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: normal;
+line-height: 22px;
+color: #42B2E0;
+
+
+
+}
+
+.add_block{
+width:635px;
+height:250px;
+display:block;
+background-color:#ff0000;
+margin:15px 0 0 0;
+float:left;
+}
+
+
+
+.sub_content{
+			height: 360px;
+			width:300px;
+			background-color: #deeff6;
+			float: left;
+}
+
+
+.signup {
+    margin: 22px 0px 0px 0px;
+    display:block;
+   height: 26px;
+			width:281px;
+
+			float: left;
+}
+.campaign{
+ margin: 10px 8px 0px 0px;
+    display:block;
+   height: 26px;
+			width:136px;
+
+			float: left;
+
+}
+
+.volunteer{
+ margin: 10px 0px 0px 0px;
+    display:block;
+   height: 26px;
+			width:136px;
+
+			float: right;
+
+}
+.donate{
+ margin: 10px 0px 0px 0px;
+    display:block;
+   height: 26px;
+			width:281px;
+
+			float: right;
+
+}
+

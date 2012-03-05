@@ -11,25 +11,25 @@ border:3px solid white;
 
 .anyClass{
   height: 144px;
-  margin:0 0 0 34px;
+  
   overflow: hidden;
   position:relative;
   visibility: visible;
   overflow: hidden;
    z-index: 2;
     left: 0px;
-    width: 860px;
+    width: 881px;
 
 }
 
 .manyClass li {
     float: left;
-    height: 144px;
+    height: 120px;
     list-style: none outside none;
-     margin: 8px -25px 0 0;
+     padding: 12px 39px 12px 16px;
     overflow: hidden;
-    padding-top: 4px;
-    width: 198px;
+    
+    width: 120px;
 
 }
 .border_img{
@@ -39,4 +39,11 @@ border:3px solid white;
 .img_name{
    z-index:1;
    top:100px;
+}
+
+#children{
+			display: block;
+			width: 860px;
+			float:left;
+			
 }
