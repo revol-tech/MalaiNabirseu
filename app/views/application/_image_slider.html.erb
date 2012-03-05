@@ -1,31 +1,29 @@
 <div id="image_slider">
-				<div id="children_slider">
+	<div id="children_slider">
+
+        <div class="prev">
+						<div class="previous_image"	>
+                  <a href="#"><%= image_tag "previous_Btn.png",:class=>"prev_image" %></a>
+						</div>
+				</div>
+				<div id="children">
+						<div class="manyClass" >
+    					<ul style= "width:2000px;">
+    					<div class="border_img">
+        				<% @children.each do|t| %>
+	                   <li><a href="#"><%= image_tag "#{t.child_image}",:width=>"141",:height=>"116p" %></a></li>
+	               <% end %>
 
 
+               </ul>
+						</div>
+				</div>
+				<div class="next">
+						<div class="last_image">
+								<a href="#"><%= image_tag "next_Btn.png",:class=>"next_image" %></a>
+						</div>
+				</div>
 
-					    <div id="children">
+	 </div>		<!--end of children_slider-->
 
-								
-
-							<div class="prev">	
-									<div class="previous_image"	>								
-                      <%= image_tag "previous_Btn.png",:class=>"prev_image" %>
-										</div>
-							</div>
-												<div id="children">
-														<div class="anyClass" >
-    														<ul>
-        															<% @children.each do|t| %>
-	   <li><%= image_tag "#{t.child_image}",:class=>"border_img",:width=>"141",:height=>"116" %></li>
-	                    <% end %>
-
-															 </ul>
-													</div>		<!--end of anyclass-->
-											</div>		<!--end of children-->
-													<div class="next">
-															<div class="last_image">
-																	<%= image_tag "next_Btn.png",:class=>"next_image" %>
-															</div>
-												</div>   
-			</div>		<!--end of children_slider-->
 </div>		<!--end of image_slider-->	
