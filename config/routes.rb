@@ -34,6 +34,7 @@ MalaiNabirseu::Application.routes.draw do
   get "pages/update"
 
   get "pages/about_us"
+	
 
 	resources :pages
 
