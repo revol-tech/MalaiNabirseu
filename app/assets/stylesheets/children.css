@@ -6,7 +6,7 @@
 	padding:0;
 }
 body{
-	
+
 	font-family:"helvetica","Myriad Pro","Trebuchet MS", sans-serif;
 	font-size:12px;
 }
@@ -15,10 +15,12 @@ body{
 	width:960px;
 	height:655px;
 	position:relative;
-	
+
+
 	overflow:hidden;
-	
-	
+
+
+
 
 	background-color:#fff;
 	-moz-box-shadow:0px 0px 28px #bdbdbd;
@@ -59,14 +61,14 @@ margin-left:5px;
 
 
 .cn_content{
-			top:652px;/*5*/	
+
+			top:652px;/*5*/
+
 			width:470px;
 			position:absolute;
 			height:609px;
 }
-.cn_content img{
-	
-}
+
 .cn_date{
 	position:absolute;
 	bottom:30px;
@@ -88,7 +90,7 @@ margin-left:5px;
 	border-radius: 3px;
 }
 .cn_content p{
-	
+
 	margin-top:10px;
 	overflow:hidden;
 	padding:0 10px 0 30px;
@@ -105,10 +107,12 @@ a.cn_more{
 	text-align:center;
 	font-size:28px;
 	letter-spacing:1px;
-	
+
+
 	text-transform:uppercase;
 	text-decoration: none;
-	
+
+
 	outline:none;
 	cursor:pointer;
 	background-color: #42b2e0;
@@ -134,7 +138,7 @@ a.cn_more:hover{
 	text-shadow: 1px 1px 1px #ccdffc;
 }
 .cn_item{
-	
+
 	cursor:pointer;
 	position:relative;
 	overflow:hidden;
@@ -142,17 +146,20 @@ a.cn_more:hover{
 	color:#fff;
 	padding:10px;
 	margin:20px 0px 0px 0px;
-	
+
+
 	background:#c6c6c6;
-	
+
+
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 }
 .cn_item:hover, .selected{
-	
+
+
 	background-color: #42b2e0;
-	
+
 }
 .cn_item:hover h2,
 .cn_list .selected h2,
@@ -195,8 +202,7 @@ a.cn_next, a.cn_prev{
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	
-}
+
 a.cn_next{
 	background-image:url('next_Btn.png');
 }
@@ -236,7 +242,7 @@ color:#707070;
 			width: 470px;
 			height:290px;
 			margin: 20px 0 0 0;
-			
+
 }
 
 .alisha_image{
@@ -252,7 +258,7 @@ color:#707070;
 				width: 470px;
 				height: 140px;
 				padding: 30px 0 0 0;
-				
+
 }
 
 #bold_content h1{
@@ -286,7 +292,7 @@ color:#707070;
 #children_content {
     display: block;
     float: left;
-   
+
 }
 
 #children_content ul{
@@ -307,7 +313,7 @@ color:#707070;
 #children_content h1 {
 		display: block;
     border-bottom: 2px solid #a6a4a5;
-    font:  100/26px Helvetica; 
+    font:  100/26px Helvetica;
 		color: #fffeff;
 		width:377px;
 		height: 37px;
@@ -320,7 +326,7 @@ color:#707070;
 
 #children_content li p {
 						display: block;
-						
+
 						font: 12px/18px "arial";
 						color: #6f6f6f;
 

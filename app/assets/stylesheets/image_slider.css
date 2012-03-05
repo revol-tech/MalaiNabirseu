@@ -16,7 +16,7 @@
 	display:block;
 }
 #children{
-  width:860px;
+  width:840px;
   display:block;
   float:left;
 
@@ -53,19 +53,14 @@
 .next {
 
     background: url("vertical_line.png") no-repeat scroll left bottom transparent;
-    float: right;
+    float: left;
     height: 94px;
     margin: 22px 0 28px 0;
     width: 40px;
 		display:block;
 		margin-left: 20px;
 }
-.class="border_img"{
-border:3px solid #ffffff;
-width:141px;
-height:116px;
 
-}
 .last_image{
 			display:block;
 			background-color: #c6c6c6;
@@ -82,9 +77,6 @@ height:116px;
 	 margin: 45px 4px 5px 8px;
 	 display:block;
 }
-
-
-
 
 
 
@@ -119,7 +111,7 @@ height:116px;
      margin: 0 -25px 0 0;
     overflow: hidden;
     padding-top: 4px;
-    width: 198px;
+    width: 200px;
 }
 
 .img_name{
