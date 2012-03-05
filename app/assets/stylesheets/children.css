@@ -16,9 +16,7 @@ body{
 	height:655px;
 	position:relative;
 
-
 	overflow:hidden;
-
 
 
 
@@ -61,14 +59,14 @@ margin-left:5px;
 
 
 .cn_content{
-
 			top:652px;/*5*/
-
 			width:470px;
 			position:absolute;
 			height:609px;
 }
+.cn_content img{
 
+}
 .cn_date{
 	position:absolute;
 	bottom:30px;
@@ -108,10 +106,8 @@ a.cn_more{
 	font-size:28px;
 	letter-spacing:1px;
 
-
 	text-transform:uppercase;
 	text-decoration: none;
-
 
 	outline:none;
 	cursor:pointer;
@@ -147,16 +143,13 @@ a.cn_more:hover{
 	padding:10px;
 	margin:20px 0px 0px 0px;
 
-
 	background:#c6c6c6;
-
 
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 }
 .cn_item:hover, .selected{
-
 
 	background-color: #42b2e0;
 
@@ -203,6 +196,7 @@ a.cn_next, a.cn_prev{
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 
+}
 a.cn_next{
 	background-image:url('next_Btn.png');
 }
