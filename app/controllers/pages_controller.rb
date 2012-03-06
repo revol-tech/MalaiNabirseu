@@ -33,6 +33,13 @@ class PagesController < ApplicationController
   def donate
   end
 
+	 def site_map
+  end
+
+	 def contact
+  end
+
+
 	
 
 end

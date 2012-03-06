@@ -1,0 +1,116 @@
+#aboutus_content h1{
+				display: block;
+				text-align:center;
+				font-size: 35px;
+				color: #36a7d1;
+}
+
+.text_1{
+			display: block;
+			margin: 5px 0 0 280px;
+			color: #c6c6c6;
+			font-size: 16px;
+}
+
+.text_2{
+		display: block;
+		margin: 0px 0 0 0px;
+		color: #c6c6c6;
+		font-size: 16px;	
+}
+
+
+.text_3{
+		display: block;
+		margin: 0px 0 0 285px;	
+		color: #c6c6c6;
+		font-size: 16px;
+}
+
+.text_4{
+		display: block;
+		margin: 0px 0 0 380px;
+		color: #c6c6c6;	
+		font-size: 16px;
+}
+
+#ourvision,#ourhistory{
+			display: block;
+			margin: 50px 0 0 200px;
+			width:760px;
+ 
+			border:1px solid black;
+			border-radius: 10px;
+	float:left;
+			
+}
+
+.vision_image,.history_image{
+    display: block;
+    height: 71px;
+    left: -200px;
+    position: relative;
+    bottom:35px; 
+    width: 303px;
+    z-index: 1;
+}
+
+
+.vision_text,.history_text{
+			display: block;
+			padding: 0px 20px 15px 20px;
+		
+}
+
+
+.vision_text p,.history_text p{
+			display: block;
+			color: #a6a6a6;
+			font-size: 14px;
+}
+
+#boardmember{
+		display: block;
+		width:100%;
+		border:1px solid #000;
+		float:left;
+		margin:100px 0;
+		border-radius:10px;
+}
+
+.boardmember_image{
+			width:402px;
+			height:71px;
+			display: block;
+			position:relative;
+			bottom:35px;
+			left:260px;
+			z-index:1;
+}
+
+.boardmember_text{
+				display: block;
+				height: 150px;
+				float:left;
+}
+
+.board_image{
+			display:block;
+			float:left;
+			
+}
+
+.board_name{
+		width:192px;
+		height:116px;
+		display:block;
+		padding: 0 0 0 20px;
+}
+
+.board_text{
+		display: block;
+		float:left;
+		padding: 0px 0 0 30px;
+}
+
+
