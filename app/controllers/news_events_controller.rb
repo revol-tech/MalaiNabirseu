@@ -5,4 +5,8 @@ class NewsEventsController < ApplicationController
   def events_details
   end
 
+  def news
+  end
+
+
 end

@@ -4,6 +4,8 @@ MalaiNabirseu::Application.routes.draw do
   get "news_events/news_details"
 
   get "news_events/events_details"
+	
+	get "news_events/news"
 
   ActiveAdmin.routes(self)
 
@@ -34,6 +36,10 @@ MalaiNabirseu::Application.routes.draw do
   get "pages/update"
 
   get "pages/about_us"
+
+  get "pages/site_map"
+
+  get "pages/contact"
 	
 
 	resources :pages

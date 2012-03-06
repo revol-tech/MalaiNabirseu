@@ -149,6 +149,18 @@ margin:0 0 0 3px;
 
 }
 
+.site a{
+		text-decoration: none;
+}
+
+
+.site span:hover{
+background-color:#fff;
+
+}
+
+
+
 .img{
   margin:0 0 0 28px;
 }
