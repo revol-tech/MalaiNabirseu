@@ -19,6 +19,7 @@
   width:840px;
   display:block;
   float:left;
+  margin:15px 0 0 0;
 
 }
 
@@ -92,30 +93,4 @@
 
 
 
-*{
-  margin:0;
-  padding:0;
-}
-
-.manyClass{
-  height: 150px;
-  margin:8px 0 0 0px;
-  overflow: hidden;
-  position:relative;
-}
-
-.manyClass li {
-    float: left;
-    height: 150px;
-    list-style: none outside none;
-     margin: 0 -25px 0 0;
-    overflow: hidden;
-    padding-top: 4px;
-    width: 200px;
-}
-
-.img_name{
-   z-index:1;
-   top:100px;
-}
-/*...END OF children slider...*/
+ OF children slider...*/

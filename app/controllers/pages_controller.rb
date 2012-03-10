@@ -5,6 +5,7 @@ class PagesController < ApplicationController
      @howtohelp = HowToHelp.all()
       @children = ChildrenSlider.all()
        @news = News.all()
+       @banner=Banner.all()
   end
 
   def about_us
@@ -40,6 +41,6 @@ class PagesController < ApplicationController
   end
 
 
-	
+
 
 end

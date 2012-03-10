@@ -4,5 +4,55 @@
 			float:left;
 			display:block;
 			background:#fff;
-			height:500px;
+			height400px;
 }
+
+
+ .img_name {
+    background: none repeat scroll 0 0 white;
+    float: right;
+    height: 135px;
+    margin-left: 761px;
+    margin-top: 237px;
+    opacity: 0.8;
+  position:absolute;
+   z-index:1;
+   top:10px;
+    width: 397px;
+    border-radius:10px;
+}
+
+
+#banner_slide{
+  height:400px !important;
+}
+
+.anyClass{
+  height: 400px !important;
+
+  margin:0;
+  overflow: hidden;
+  position:relative;
+}
+
+.anyClass li{
+    float: left;
+    height: 400px  !important;
+    list-style: none outside none;
+    margin: 0 12px 0 0;
+    overflow: hidden;
+    padding: 0;
+    width: 210px;
+}
+
+
+
+.anyClass2 * {
+    width:141px;
+    height:116px;
+    margin:0 0 0 10px;
+ }
+ .anyClass2{
+  width:840px !important;
+
+ }
