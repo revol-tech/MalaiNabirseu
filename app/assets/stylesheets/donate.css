@@ -19,16 +19,7 @@ form {
 }
 	
 	
-label {
-		display:block;
-    color: #545D5C;
-    display: block;
-    float: left;
-    font-family: 'arial',serif;
-    font-size: 16px;
-    text-align: left;
-    width: 160px;
-}
+
 
 
 	
@@ -59,3 +50,14 @@ label {
 	margin:auto;
 	width:960px;
 	}
+
+.name{
+	display:block;
+    color: #545D5C;
+    display: block;
+    float: left;
+    font-family: 'arial',serif;
+    font-size: 16px;
+    text-align: left;
+    width: 160px;
+}
