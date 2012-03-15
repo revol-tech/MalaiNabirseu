@@ -1,0 +1,61 @@
+#buttons{
+	margin:10 0 0 425px;
+	}
+
+form {
+    margin-top: 50px;
+
+}
+
+#image_donate{
+	display:block;
+	margin:20px 0 0 300px ;
+	}
+
+.donate_large_image{
+		display:block;
+		width:281px;
+		height:26px;
+}
+	
+	
+label {
+		display:block;
+    color: #545D5C;
+    display: block;
+    float: left;
+    font-family: 'arial',serif;
+    font-size: 16px;
+    text-align: left;
+    width: 160px;
+}
+
+
+	
+#text {
+		display:block;
+    background-color: #c3c0c0;
+    margin: 20px 0 0 140px;
+    width: 720px;
+	border-radius:10px;
+	}
+	
+#text p{
+	display:block;
+	padding:10px;
+	text-align:justify;
+		font-family: Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    font-size: 16px;
+	color: #545D5C;
+	}
+
+
+
+
+#wrapper{
+	margin:auto;
+	width:960px;
+	}
