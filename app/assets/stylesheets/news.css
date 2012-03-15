@@ -65,6 +65,11 @@
 		display:block;
 }
 
+.read_more a{
+			color: #ee5e75;
+			text-decoration:none;
+}
+
 .freinds {
     float: left;
     height: 100px;
