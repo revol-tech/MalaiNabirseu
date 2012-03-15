@@ -9,6 +9,8 @@ class PagesController < ApplicationController
   end
 
   def about_us
+		@children = ChildrenSlider.all()
+		@news = News.all()
   end
 
   def get_involved

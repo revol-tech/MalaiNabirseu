@@ -56,13 +56,13 @@ $(function() {
 							$current.stop().animate({'top':'-655px'},600,'easeOutBack',function(){
 								$(this).css({'top':'652px'});
 							});
-							$next.css({'top':'652px'}).stop().animate({'top':'5px'},600,'easeOutBack');
+							$next.css({'top':'652px'}).stop().animate({'top':'0px'},600,'easeOutBack');
 						}
 						else if(idx < current){
 							$current.stop().animate({'top':'652px'},600,'easeOutBack',function(){
 								$(this).css({'top':'652px'});
 							});
-							$next.css({'top':'-655px'}).stop().animate({'top':'5px'},600,'easeOutBack');
+							$next.css({'top':'-655px'}).stop().animate({'top':'0px'},600,'easeOutBack');
 						}
 						current = idx;
 					});

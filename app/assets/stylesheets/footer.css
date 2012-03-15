@@ -6,7 +6,7 @@
 
 	background:#393939;
 	border-top:5px solid #c7c5c6;
-	margin:0px 0 0 0;
+	margin:50px 0 0 0;
 	padding:0 0 0 0 !important;
 }
 
@@ -153,11 +153,12 @@ margin:0 0 0 3px;
 
 .site a{
 		text-decoration: none;
+		color:#3c3c3c;
 }
 
 
-.site span:hover{
-background-color:#fff;
+.site a:hover{
+				color:#fff;
 
 }
 
@@ -166,3 +167,4 @@ background-color:#fff;
 .img{
   margin:0 0 0 28px;
 }
+

@@ -11,7 +11,7 @@ body{
 	font-size:12px;
 }
 .cn_wrapper{
-	margin:0px auto;
+	margin:0px auto 60px;
 	width:960px;
 	height:655px;
 	position:relative;
@@ -31,6 +31,8 @@ body{
 .cn_wrapper h1{
 	font-size:20px;
 	text-transform:uppercase;
+	color:#f36363;
+	margin:30px 0 0 0px;
 }
 .cn_wrapper h2{
 	font-size:25px;
@@ -91,48 +93,24 @@ margin-left:5px;
 
 	margin-top:10px;
 	overflow:hidden;
-	padding:0 10px 0 30px;
+	padding:0 10px 0 0px;
 	text-align:justify;
 }
 a.cn_more{
 	position:absolute;
-	height:26px;
-	padding:20px 0;
-	left:0px;
+	height:23px;
+	
+	
 	bottom:0px;
 	width:470px;
-	color:#fff;
-	text-align:center;
-	font-size:28px;
-	letter-spacing:1px;
+	
 
-	text-transform:uppercase;
-	text-decoration: none;
+	
+	background-color: #f36363;
+	
+	
+}
 
-	outline:none;
-	cursor:pointer;
-	background-color: #42b2e0;
-	background-image:
-		-moz-linear-gradient(
-			top,
-			rgba(255,255,255,0.25),
-			rgba(255,255,255,0.05)
-		);
-	background-image:
-		-webkit-gradient(
-			linear,
-			left top,
-			left bottom,
-			color-stop(0, rgba(255,255,255,0.25)),
-			color-stop(1, rgba(255,255,255,0.05))
-		);
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-}
-a.cn_more:hover{
-	color: #011c44;
-	text-shadow: 1px 1px 1px #ccdffc;
-}
 .cn_item{
 
 	cursor:pointer;
@@ -197,20 +175,15 @@ a.cn_next, a.cn_prev{
 	border-radius: 10px;
 
 }
-a.cn_next{
-	background-image:url('next_Btn.png');
+
+a.cn_next:hover{
+				background-color:#5ac9f7;
 }
-a.cn_prev{
-	margin-right:5px;
-	background-image:url("prev_Btn.png");
+
+a.cn_prev:hover{
+				background-color:#5ac9f7;
 }
-.cn_nav a:hover{
-	background-color:#101010;
-}
-.cn_nav a:active{
-	margin-top:1px;
-	background-color:#000;
-}
+
 
 .cn_page{
 	display:none;
@@ -224,7 +197,7 @@ color:#707070;
 
 
 
-#children_top_border{
+.children_top_border{
 			display:block;
 			width: 470px;
 			height: 23px;
@@ -235,7 +208,7 @@ color:#707070;
 			display:block;
 			width: 470px;
 			height:290px;
-			margin: 20px 0 0 0;
+			
 
 }
 
@@ -243,11 +216,12 @@ color:#707070;
 			display:block;
 			width: 470px;
 			height:290px;
+			margin: 20px 0 0 0;
 }
 
 
 
-#bold_content{
+#date_content{
 				display:block;
 				width: 470px;
 				height: 140px;
@@ -255,11 +229,25 @@ color:#707070;
 
 }
 
-#bold_content h1{
+#date_content h1{
 				display:block;
 				padding:0 0 0 30px;
 				font-size: 16px;
-				color:#f36363;
+}
+
+
+.next1_image{
+			display:block;
+			width:7px;
+			height:13px;
+			margin: 28px 0 0 35px;
+}
+
+.prev1_image{
+			display:block;
+			width:7px;
+			height:13px;
+			margin: 28px 0 0 35px;
 }
 
 
@@ -272,110 +260,5 @@ color:#707070;
 
 
 /* end of css of children page used in js*/
-.cn_wrapper{
-    background-color: #FFFFFF;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 0 12px 0 #888888;
-    display: block;
-    height: 655px;
-    margin: 0 auto;
-    width: 960px;
-}
 
 
-#children_content {
-    display: block;
-    float: left;
-
-}
-
-#children_content ul{
-				background: #c6c6c6;
-				list-style:none;
-				border-radius: 10px;
-				width: 390px;
-				height: 112px;
-				display: block;
-				margin: 20px 20px 20px 20px;
-				overflow: hidden;
-}
-
-
-
-
-
-#children_content h1 {
-		display: block;
-    border-bottom: 2px solid #a6a4a5;
-    font:  100/26px Helvetica;
-		color: #fffeff;
-		width:377px;
-		height: 37px;
-		margin: 8px 0 5px 0px;
-}
-
-#children_content li{
-
-}
-
-#children_content li p {
-						display: block;
-
-						font: 12px/18px "arial";
-						color: #6f6f6f;
-
-}
-
-.leftbutton{
-				width: 70px;
-				height: 75px;
-				float: left;
-				display:block;
-}
-
-
-.rightbutton{
-				width: 70px;
-				height: 75px;
-				float: right;
-				display:block;
-}
-
-
-#children_image {
-		display: block;
-    border-top: 22px solid #F36363;
-    float: right;
-    margin: 25px 25px 0 0;
-    width: 470px;
-}
-
-
-.alisha_image{
-					display: block;
-					width: 470px;
-					height: 290px;
-					margin-top: 20px;
-}
-
-#image_text{
-		display:block;
-		overflow:hidden;
-}
-
-#image_text h1{
-				display: block;
-				font-size: 15px;
-				color:#f65f66;
-}
-
-#image_text p{
-			display: block;
-			font: 12px/18px "arial";
-			font-size:14px;
-			color: #6f6f6f;
-}
-
-.readmore{
-			display: block;
-}
