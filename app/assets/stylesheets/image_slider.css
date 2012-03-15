@@ -19,8 +19,11 @@
 #children{
   width:840px;
   display:block;
+  margin-top:10px;
   float:left;
-  margin:15px 0 0 0;
+
+  margin-right:10px;
+  margin-left:10px;
 
 }
 
@@ -31,7 +34,7 @@
 		height: 94px;
 
     margin-top:25px;
-    margin-right: 20px;
+
 		display: block;
 
 }
@@ -60,7 +63,7 @@
     margin: 22px 0 28px 0;
     width: 40px;
 		display:block;
-		margin-left: 20px;
+
 }
 
 .last_image{

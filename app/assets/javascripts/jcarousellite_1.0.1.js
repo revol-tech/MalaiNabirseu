@@ -324,13 +324,13 @@ $.fn.jCarouselLite = function(o) {
 		    );
 
 
-		    $('.img_name').hide();
+		    $('.imgname').hide();
 
 		    if(o.info_on_hover){
           li.hover(function(){
-                $(this).children('.img_name').fadeIn();
+                $(this).children('.imgname').fadeIn();
             },function(){
-                $(this).children('.img_name').fadeOut();
+                $(this).children('.imgname').fadeOut();
             }
           )
 
