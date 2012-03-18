@@ -1,0 +1,65 @@
+#wrapper{
+	display:block;
+	margin: 0 auto;
+	width:960px;
+	}
+
+
+#buttons{
+	display:block;
+	margin:10 0 0 425px;
+	}
+
+form {
+		display:block;
+    margin-top: 50px;
+
+}
+
+#image_donate{
+	display:block;
+	margin:20px 0 0 300px ;
+	}
+
+
+
+	
+#text {
+		display:block;
+    background-color: #c3c0c0;
+    margin: 20px 0 0 140px;
+    width: 720px;
+		border-radius:10px;
+	}
+	
+#text p{
+	display:block;
+	padding:10px;
+	text-align:justify;
+	font-family: Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  font-size: 16px;
+	color: #545D5C;
+	}
+
+
+
+
+
+.name{
+		display:block;
+    color: #545D5C;
+    display: block;
+    float: left;
+    font-family: 'arial',serif;
+    font-size: 16px;
+    text-align: left;
+    width: 160px;
+}
+
+form p{
+		display:block;
+		padding:10px 0 0 0;
+}

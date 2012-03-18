@@ -158,8 +158,10 @@
 
 .boardmember_profile{
 				display: block;
+				width:480px;
 				height: 150px;
 				float:left;
+				
 }
 
 .board_image{
@@ -169,7 +171,7 @@
 }
 
 .board_name{
-		width:192px;
+		width:180px;
 		height:116px;
 		display:block;
 		
@@ -178,16 +180,20 @@
 .board_text{
 		display: block;
 		float:left;
-		padding: 0px 0 0 30px;
+		width:250px;
+		margin: 0 0 0 15px;
 }
 
 
-
-
+.experience{
+			float:right;
+			width:160px;
+}
 .name1{
 	display:block;
-	width:100px;
+	width:90px;
 	color: #545D5C;
+	float:left;
 }
 
 #line_image{
