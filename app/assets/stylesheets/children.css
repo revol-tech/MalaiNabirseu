@@ -13,7 +13,7 @@ body{
 .cn_wrapper{
 	margin:0px auto 60px;
 	width:960px;
-	height:655px;
+	height:713px;
 	position:relative;
 
 	overflow:hidden;
@@ -50,7 +50,7 @@ margin-left:5px;
 }
 .cn_list{
 	width:430px;
-	height:633px;
+	height:695px;
 	position:absolute;
 
 	left:20px;
@@ -64,7 +64,7 @@ margin-left:5px;
 			top:652px;/*5*/
 			width:470px;
 			position:absolute;
-			height:609px;
+			height:675px;
 }
 .cn_content img{
 
