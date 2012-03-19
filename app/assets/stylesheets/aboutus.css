@@ -147,13 +147,15 @@
 }
 
 .boardmember_image{
-			width:196px;
-			height:49px;
-			display: block;
-			position:relative;
-			bottom:35px;
-			left:-2px;
-			z-index:1;
+		display: block;
+    height: 49px;
+    width: 196px;
+    background:url("members_Title.png") no-repeat center #f36363;
+		border-radius:5px;
+		box-shadow: 2px 4px 5px #888888;
+		z-index:1;
+		position:relative;
+		margin: 0 0 20px 0;
 }
 
 .boardmember_profile{
