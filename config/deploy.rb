@@ -32,7 +32,7 @@ set :rvm_ruby_string, '1.9.3'
 #load 'deploy/assets'
 
 #db migrate
-after "deploy", "deploy:migrate"
+#after "deploy", "deploy:migrate"
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
