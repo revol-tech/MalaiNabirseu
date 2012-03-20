@@ -43,7 +43,11 @@ class PagesController < ApplicationController
 
 	 def contact
   end
-
+	
+	def donate
+		@children = ChildrenSlider.all()
+		@news = News.all()
+  end
 
 
 

@@ -92,16 +92,16 @@ background:url("more_Hover.png") no-repeat left top;
 .content_text {
   	background:url('container_2_Bg.png') repeat-x left top;
     margin:0px 0 0 10px;
-    width: 280px;
-height:120px;
+    width: 260px;
+height:100px;
 		float:left;
 		display:block;
 		overflow:hidden;
-
+		padding: 10px 10px 10px 10px;
 }
 
 .content_text p{
-						padding: 0px 10px 10px 10px;
+						
 						text-align: justify;
 						color: #777978;
 						font:normal 12px/18px "arial";

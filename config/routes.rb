@@ -7,6 +7,7 @@ MalaiNabirseu::Application.routes.draw do
 	
 	get "news_events/news"
 
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config

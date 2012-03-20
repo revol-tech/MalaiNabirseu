@@ -107,35 +107,51 @@ padding:10px 0 7px 0;
 
 
 #powered_by a{
+	 display: block;
   text-decoration:none;
   color:#3c3c3c;
 }
 
 #footer_link{
+	 display: block;
   width:765px;
   float:left
 
 }
 #social_network{
+	 display: block;
   height:68px;
-  width:150px;
+  width:149px;
   float:left;
 
 }
 .facebook {
-    background: url("socialNetwork_Btn.png") no-repeat scroll left top transparent;
+    background: url("socialNetwork_Btn.png") no-repeat scroll left top ;
     display: block;
 
     height: 34px;
-    width: 150px;
+    width: 149px;
 }
+
+
+.facebook:hover {
+    background: url("socialNetwork_Btn_Hover.png") no-repeat left top;
+    
+}
+.twitter:hover {
+    background: url("socialNetwork_Btn_Hover.png") no-repeat left bottom;
+    
+}
+
 .twitter {
-    background: url("socialNetwork_Btn.png") no-repeat scroll left bottom transparent;
+    background: url("socialNetwork_Btn.png") no-repeat scroll left bottom ;
     display: block;
 
     height: 34px;
-    width: 150px;
+    width: 149px;
 }
+
+
 
 #powered_by a:hover{
  color:#fff;
