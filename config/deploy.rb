@@ -14,7 +14,7 @@ role :db,  "malainebirseu.com.np", :primary => true # This is where Rails migrat
 #role :db,  "your slave db-server here"
 
 set :user, "deploy"
-set :scm_username, 'revol-tech'
+set :scm_username, 'dhami'
 set :bundle_gemfile,  "Gemfile"
   set :bundle_dir,""
   set :bundle_flags,""
