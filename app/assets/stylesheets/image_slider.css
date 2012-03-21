@@ -32,11 +32,11 @@
 		height: 94px;
     margin: 22px 0 28px 0;
 		display: block;
-		
+
 }
 .previous_image{
 			display:block;
-			
+
 			height: 94px;
 			width: 22px;
 			border-top-left-radius: 5px;
@@ -55,7 +55,7 @@
 			height:94px;
 			background-color:#c6c6c6;
 			float:right;
-			
+
 }
 
 .prev_image{
@@ -71,12 +71,12 @@
     margin: 22px 0 28px 0;
     width: 35px;
 		display:block;
-		
+
 }
 
 .next_image{
 			display:block;
-			
+
 			height: 94px;
 			width: 22px;
 			border-top-right-radius: 5px;
@@ -112,8 +112,3 @@
 		display:block;
 		color: #EE5E75;
 }
-
-
-
-
- OF children slider...*/

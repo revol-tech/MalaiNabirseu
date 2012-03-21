@@ -13,11 +13,6 @@
  margin:0 auto;
  height:126px;
 }
-#main_nav{
-
-
-
-}
 
 
 
@@ -56,12 +51,12 @@
 
 #nav a:hover{
 			background:url('hoverleft2.png') no-repeat 0 50%;
-		
+
 }
 
 #nav a:hover span{
 			background:url('hoverright.gif') no-repeat 100% 50%;
-		
+
 }
 
 
@@ -72,7 +67,7 @@
 			display:block;
 			float:left;
 			text-decoration:none;
-		
+
 }
 #nav span{
 	padding:6px 12px;
@@ -87,7 +82,7 @@
 
 #nav li{
 		display: inline;
-		
+
 }
 
 
