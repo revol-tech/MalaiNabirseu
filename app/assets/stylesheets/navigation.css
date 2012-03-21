@@ -47,8 +47,35 @@
 
 
 #nav ul{
+		display:block;
 		list-style: none;
 		margin:30px 0 0 20px;
+		width:auto;
+		float:left;
+}
+
+#nav a:hover{
+			background:url('hoverleft2.png') no-repeat 0 50%;
+		
+}
+
+#nav a:hover span{
+			background:url('hoverright.gif') no-repeat 100% 50%;
+		
+}
+
+
+
+
+
+#nav a, #nav span{
+			display:block;
+			float:left;
+			text-decoration:none;
+		
+}
+#nav span{
+	padding:6px 12px;
 }
 
 
@@ -60,7 +87,7 @@
 
 #nav li{
 		display: inline;
-		padding:0px 0 0 30px;
+		
 }
 
 
@@ -68,12 +95,11 @@
 		text-decoration: none;
     color:#767676;
     font:bold 13px 'arial',serif;
+		margin:0 0px 0 15px;
 
 }
 
-#nav a:hover{
-		color: #e03d42;
-}
+
 
 
 /*...END OF NAVIGATION...*/

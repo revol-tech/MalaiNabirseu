@@ -23,7 +23,7 @@ $(document).ready(function(){
     var dim=[];
     dim['w'] = $(window).width();
     dim['h'] = $(window).height();
-    dim['h'] = 0.3*dim['w'];
+    dim['h'] = 350;
     return dim;
    };
 
