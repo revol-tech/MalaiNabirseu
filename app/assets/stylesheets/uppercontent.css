@@ -16,11 +16,16 @@
    width:100%;
 	 float:left;
 	 display:block;
-   background:url('upper_Content_Wrapper_Bg.png') repeat-x left;
+   background:url('upper_Content_Wrapper_Bg_1.png') repeat-x left;
 	 height:446px;
 	 overflow:hidden;
 }
+#cloud{
+width:100%;
+	 display:block;
+   background:url('cloud.png') repeat-x left bottom;
 
+}
 .content {
 
     display: block;

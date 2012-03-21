@@ -23,7 +23,7 @@ $(document).ready(function(){
     var dim=[];
     dim['w'] = $(window).width();
     dim['h'] = $(window).height();
-    dim['h'] = 350;
+    dim['h'] = 0.2622* dim['w'];
     return dim;
    };
 
@@ -35,7 +35,7 @@ $(document).ready(function(){
 $(function(){
   $(".anyClass").jCarouselLite({
 	  auto:true,
-  	speed:3000,
+  	speed:5000,
   	visible:1,
   	resizeable:true,
   	showInfo:true,

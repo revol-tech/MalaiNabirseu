@@ -9,30 +9,9 @@
   padding:0;
 }
 
-.anyClass{
-  height: 150px;
-  /*margin:0 0 0 34px;*/ /* i changed this margin to the margin below*/
-  margin:0;
-  overflow: hidden;
-  position:relative;
-}
 
-.anyClass li{
-    float: left;
-    height: 150px;
-    list-style: none outside none;
-    margin: 0 12px 0 0;
-    overflow: hidden;
-    padding: 0;
-    width: 210px;
-}
 
-.imgname{
-    position:absolute;
-    z-index:1;
-    top:10px;
-    margin-left: 50px;
-}
+
 
 #children li {
 margin-left:10px;

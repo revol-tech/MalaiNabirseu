@@ -1,28 +1,4 @@
 
-#banner{
-			border-bottom:4px solid #eaebed;
-			float:left;
-			display:block;
-			background:#fff;
-			height:400px;
-}
-
-
- .img_name {
-    background: none repeat scroll 0 0 white;
-    float: right;
-    height: 135px;
-    margin-left: 761px;
-
-    margin-top: 90px;
-
-    opacity: 0.8;
-  position:absolute;
-   z-index:1;
-   top:10px;
-    width: 397px;
-    border-radius:10px;
-}
 
 
 
@@ -34,16 +10,19 @@
   margin:0;
   overflow: hidden;
   position:relative;
+	border-top:4px solid #42b2e0;
+	border-bottom:4px solid #42b2e0;
+
 }
 
 .anyClass li{
     float: left;
 
     list-style: none outside none;
-    margin: 0 12px 0 0;
+ 
     overflow: hidden;
     padding: 0;
-    width: 210px;
+    
 }
 
 
