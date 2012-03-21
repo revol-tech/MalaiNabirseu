@@ -5,8 +5,8 @@ class NewsEventsController < ApplicationController
   end
 
   def events_details
-		@children = ChildrenSlider.all()
-		@news = News.all()
+			@children = ChildrenSlider.all()
+			@news = News.all()
   end
 
   def news

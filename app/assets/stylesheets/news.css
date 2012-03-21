@@ -50,6 +50,7 @@
 }
 
 .latest_news{
+			font-family: Helvetica, Arial, sans-serif;
 			font-size:11px;
 			color: #7b7b7b;
 			margin: 5px 0 0;
@@ -60,9 +61,12 @@
 
 .read_more{
 		float:right;
-		color: #ee5e75;
 		font-size: 11px;
 		display:block;
+}
+
+.read_more a:hover{
+			color:#FF0000;
 }
 
 .read_more a{

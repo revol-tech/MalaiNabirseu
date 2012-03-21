@@ -1,0 +1,21 @@
+#debit{
+		display:block;
+		margin:0 0 30px 0;
+}
+#debit p{
+		display:block;
+		color:#2394B8;
+		font-size:18px;
+}
+
+#debit strong{
+		color:	#696969;
+		font-size:15px;
+}
+
+
+#debit span{
+		font-size:13px;
+}
+
+

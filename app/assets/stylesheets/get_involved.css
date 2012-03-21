@@ -23,7 +23,7 @@
 
 #getinvolved_text h1{
 				display: block;
-				color: #f36363;
+				color: #2394B8;
 				font-size: 40px;
 				padding: 10px 0 0 0;
 }
@@ -79,6 +79,8 @@
     float:left;
 }
 
+
+
 #get_involved_content{
 	  display: block;
     float: left;
@@ -132,12 +134,40 @@ color: #42B2E0;
 width:635px;
 height:250px;
 display:block;
-background-color:#ff0000;
+
 margin:15px 0 0 0;
 float:left;
 }
 
+.add_block_content1{
+		width:201px;
+		height:248px;
+		display:block;
+		margin:0 15px 0 0;
+		float:left;
+		background-color:#fff;
+		box-shadow:0 0 13px 0 #767676 inset;
+}
 
+.add_block_content2{
+		width:201px;
+		height:248px;
+		display:block;
+		margin:0 15px 0 0;
+		float:left;
+		background-color:#fff;
+		box-shadow:0 0 13px 0 #767676 inset;
+}
+
+.add_block_content3{
+		width:201px;
+		height:248px;
+		display:block;
+		margin:0 0px 0 0;
+		float:left;
+		background-color:#fff;
+		box-shadow:0 0 13px 0 #767676 inset;
+}
 
 .sub_content{
 			height: 360px;
@@ -152,8 +182,13 @@ float:left;
     display:block;
    height: 26px;
 			width:281px;
-
+			background:url('get_Involved_Links.png') no-repeat 0px 0px;
 			float: left;
+}
+
+
+.signup:hover{
+		background:url('get_Involved_Links_Hover.png') no-repeat 0px 0px;
 }
 .campaign{
  margin: 10px 8px 0px 0px;
@@ -162,7 +197,11 @@ float:left;
 			width:136px;
 
 			float: left;
-
+			background:url('get_Involved_Links.png') no-repeat 0px -36px;
+}
+.campaign:hover{
+ 
+			background:url('get_Involved_Links_Hover.png') no-repeat 0px -36px;
 }
 
 .volunteer{
@@ -170,8 +209,14 @@ float:left;
     display:block;
    height: 26px;
 			width:136px;
-
+			background:url('get_Involved_Links.png') no-repeat right -36px;
 			float: right;
+
+}
+.volunteer:hover{
+
+			background:url('get_Involved_Links_Hover.png') no-repeat right -36px;
+			
 
 }
 .donate{
@@ -179,7 +224,13 @@ float:left;
     display:block;
    height: 26px;
 			width:281px;
-
+			background:url('get_Involved_Links.png') no-repeat 0px bottom;
 			float: right;
+
+}
+.donate:hover{
+ 
+			background:url('get_Involved_Links_Hover.png') no-repeat 0px bottom;
+		
 
 }

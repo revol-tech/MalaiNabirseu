@@ -21,31 +21,41 @@
   display:block;
   margin-top:10px;
   float:left;
-
   margin-right:10px;
   margin-left:10px;
 
 }
 
 .prev {
-    background: url("vertical_line.png") no-repeat  right bottom;
     float: left;
-    width: 30px;
+    width: 35px;
 		height: 94px;
-
-    margin-top:25px;
-
+    margin: 22px 0 28px 0;
 		display: block;
-
+		
 }
 .previous_image{
 			display:block;
-			background-color: #c6c6c6;
+			
 			height: 94px;
 			width: 22px;
 			border-top-left-radius: 5px;
 			border-bottom-left-radius: 5px;
+			float:left;
+			background:url('previous_Btn.png') no-repeat center #c6c6c6;
+}
 
+.previous_image:hover{
+  background-color: #b3b3b3;
+}
+
+
+.button_border{
+			width:1px;
+			height:94px;
+			background-color:#c6c6c6;
+			float:right;
+			
 }
 
 .prev_image{
@@ -56,28 +66,32 @@
 
 
 .next {
-
-    background: url("vertical_line.png") no-repeat scroll left bottom transparent;
     float: left;
     height: 94px;
     margin: 22px 0 28px 0;
-    width: 40px;
+    width: 35px;
 		display:block;
-
+		
 }
 
-.last_image{
+.next_image{
 			display:block;
-			background-color: #c6c6c6;
+			
 			height: 94px;
 			width: 22px;
 			border-top-right-radius: 5px;
 			border-bottom-right-radius: 5px;
 			float:right;
+			background:url('next_Btn.png') no-repeat center #c6c6c6;
+}
+
+.next_image:hover{
+  background-color: #b3b3b3;
 }
 
 
-.next_image{
+
+.next_image1{
    float:right;
 	 margin: 45px 4px 5px 8px;
 	 display:block;
