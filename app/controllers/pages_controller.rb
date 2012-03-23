@@ -30,6 +30,8 @@ class PagesController < ApplicationController
   end
 
   def what_we_do
+			@children = ChildrenSlider.all()
+		@news = News.all()
   end
 
   def how_to_help

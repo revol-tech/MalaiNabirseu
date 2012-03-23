@@ -98,7 +98,7 @@ margin-left:5px;
 }
 a.cn_more{
 	position:absolute;
-	height:23px;
+	height:65px;
 	
 	
 	bottom:0px;
@@ -165,7 +165,7 @@ a.cn_next, a.cn_prev{
 	float:left;
 	height:66px;
 	width:70px;
-	background-color:#fee14e;
+	background-color:#42B2E0;
 	background-position:center center;
 	cursor:pointer;
 	outline:none;
@@ -177,11 +177,11 @@ a.cn_next, a.cn_prev{
 }
 
 a.cn_next:hover{
-				background-color:#5ac9f7;
+				background-color:#F36363;
 }
 
 a.cn_prev:hover{
-				background-color:#5ac9f7;
+				background-color:#F36363;
 }
 
 
@@ -254,6 +254,11 @@ color:#707070;
 }
 
 
+
+.click{
+		float:right;
+		font:normal 12px "arial";
+}
 
 
 

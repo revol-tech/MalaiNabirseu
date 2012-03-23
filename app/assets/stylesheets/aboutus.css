@@ -1,170 +1,152 @@
-#aboutus_content {
-    background-color: #A6A3A3;
-    border-radius: 5px 5px 5px 5px;
-    display: block;
-    padding: 15px 20px 10px 15px;
+
+
+
+#aboutus_title{
+		display:block;
+		width:auto;
+		float:left;
 }
+
 #aboutus_content label {
-    color: #FFFFFF;
+		border-top:5px solid #f36363;
     display: block;
     font-size: 24px;
-    padding-right: 6px;
     width: auto;
 		float: left;
 		font-weight:bold;
+		color:#f36363;
 }
 
 #aboutus_content p{
 				display: block;
-				color:#6B6B6B;
+				color:#777978;
 				font-size: 14px;
 				text-align:justify;
-				line-height:27px;
+				line-height:20px;
 				margin:5px 0;
  			  font-family: Helvetica,Arial,sans-serif;
     		font-style: normal;
     		font-weight: normal;
     		letter-spacing: normal;
-}
-
-
-.text_1{
-			display: block;
-			margin: 5px 0 0 280px;
-			color: #c6c6c6;
-			font-size: 16px;
-}
-
-.text_2{
-		display: block;
-		margin: 0px 0 0 0px;
-		color: #c6c6c6;
-		font-size: 16px;	
-}
-
-
-.text_3{
-		display: block;
-		margin: 0px 0 0 285px;	
-		color: #c6c6c6;
-		font-size: 16px;
-}
-
-.text_4{
-		display: block;
-		margin: 0px 0 0 380px;
-		color: #c6c6c6;	
-		font-size: 16px;
-}
-
-#ourvision {
-    background-color: #42B2E0;
-    border-radius: 10px;
-    display: block;
-    float: left;
-    margin: 50px 0 0 61px;
-    width: 899px;
-	
-}
-
-
-#ourhistory{
-			display: block;
-			margin: 50px 0 0 61px;
-			width:899px;
- 			background-color:#f7ca53;
-			border-radius: 10px;
-			float:left;
-			
-}
-
-.vision_image{
-    display: block;
-    height: 49px;
-    width: 196px;
-    background:url("our_Vision_Title.png") no-repeat center #42b2e0;
-		border-radius:5px;
-		box-shadow: 2px 4px 5px #888888;
-		z-index:1;
-		position:relative;
-		left:-61px;
+				float:left;
 }
 
 
 
 
-.history_image {
-   display: block;
-    height: 49px;
-    width: 196px;
-    background:url("our_History_Title.png") no-repeat center #f7ca53;
-		border-radius:5px;
-		box-shadow: 2px 4px 5px #888888;
-		z-index:1;
-		position:relative;
-		left:-61px;
+
+
+#vision_title, #history_title{
+    display:block;
+		width:auto;
+		float:left;
 }
 
 
-.our_History_Title{
+#ourvision, #ourhistory, #aboutus_content{
 		display:block;
-		width:133px;
-		height:18px;
+		margin:30px 0 0 0;
+		float:left;
 }
 
-.vision_text,.history_text{
-			display: block;
-			padding: 0px 20px 15px 20px;
-			margin:-40px 0;
+#ourvision h1 {
+		border-top:5px solid #40b4e3;
+    display: block;
+    font-size: 24px;
+    width: auto;
+		float: left;
+		font-weight:bold;
+		color:#40b4e3;
 }
 
 
-.vision_text p,.history_text p{
+
+
+#ourhistory h1 {
+		border-top:5px solid #fcc956;
+    display: block;
+    font-size: 24px;
+    width: auto;
+		float: left;
+		font-weight:bold;
+		color:#fcc956;
+}
+
+
+
+
+
+#ourvision p, #ourhistory p{
 			display: block;
-			color: #fff;
-			font-size: 17px;
+			color: #777978;
+			font-size: 14px;
 			font-family: Helvetica,Arial,sans-serif;
     	font-style: normal;
     	font-weight: normal;
     	letter-spacing: normal;
-			line-height:35px;
+			line-height:20px;
+			float:left;
 }
 
-#boardmember{
+.boardmember_title{
 		display: block;
-		width:960px;
-		
+    width: 960px;
 		float:left;
-		margin:70px 0;
-		border-radius:10px;
+		background-color:#f36363;
+		margin:30px 0 0 0;
+		
 }
 
-#profile{
-			display:block;
-			width:960px;
-			border-top:5px solid #808080;
-			padding-top:20px;
-}
-
-.boardmember_image{
+.boardmember{
 		display: block;
-    height: 49px;
-    width: 196px;
-    background:url("members_Title.png") no-repeat center #f36363;
-		border-radius:5px;
-		box-shadow: 2px 4px 5px #888888;
-		z-index:1;
-		position:relative;
-		margin: 0 0 20px 0;
+		width:958px;
+		float:left;
+		border:1px solid #ddd;
+		border-top:none;
 }
 
-.boardmember_profile{
-				display: block;
-				width:480px;
-				height: 150px;
-				float:left;
-				
+.profile{
+			display:block;
+			width:958px;
+			padding:20px 0 0 0;
+			float:left;
 }
+
+
+
+.boardmember_profile1{
+	display:block;
+	float:left;
+	width:439px;
+	padding:20px;
+}
+
+
+.boardmember_profile2{
+	display:block;
+	
+	width:439px;
+	padding:20px;
+float:left;
+}
+
+
+
+.boardmember_title p{
+		display: block;
+		font:bold 25px "arial";
+		color:#fff;
+		padding:10px;
+}
+
+#profile_title{
+				display: block;
+				width:958px;
+				float:left;
+}
+
+
+
 
 .board_image{
 			display:block;
@@ -173,7 +155,7 @@
 }
 
 .board_name{
-		width:180px;
+		width:160px;
 		height:116px;
 		display:block;
 		
@@ -198,11 +180,8 @@
 	float:left;
 }
 
-#line_image{
-		display:block;
-		width:960px;
-		height:12px;
-		margin:0 0 30px 0;
+.line2_image{
+		margin:30px 0 ;
 }
 
 

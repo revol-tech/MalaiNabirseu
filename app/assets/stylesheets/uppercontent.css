@@ -17,14 +17,14 @@
 	 float:left;
 	 display:block;
    background:url('upper_Content_Wrapper_Bg_1.png') repeat-x left;
-	 height:446px;
+	 height:500px;
 	 overflow:hidden;
 }
 #cloud{
 width:100%;
 	 display:block;
    background:url('cloud.png') repeat-x left bottom;
-
+		height:500px;
 }
 .content {
 
