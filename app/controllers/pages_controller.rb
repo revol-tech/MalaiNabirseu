@@ -14,6 +14,8 @@ class PagesController < ApplicationController
   end
 
   def get_involved
+		@children = ChildrenSlider.all()
+		@news = News.all()
   end
 
   def events

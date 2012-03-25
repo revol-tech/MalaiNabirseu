@@ -1,6 +1,8 @@
 #news {
     background-color: #FFFFFF;
     box-shadow: 0 0 13px 0 #767676 inset;
+		-moz-box-shadow: 0 0 13px 0 #767676 inset;
+		-webkit-box-shadow: 0 0 13px 0 #767676 inset;
     display: block;
     float: left;
 		display: block;
@@ -35,7 +37,7 @@
 		font-size:12px;
 		color:#ee5e75;
 		font-size: 12px;
-		height:35px;
+		height:30px;
 		overflow:hidden;
 		display: block;
 		margin: 0 5px 0 0;
@@ -53,8 +55,8 @@
 			font-family: Helvetica, Arial, sans-serif;
 			font-size:11px;
 			color: #7b7b7b;
-			margin: 5px 10px 0 0;
-			height:45px;
+			margin: 14px 10px 0 0;
+			height:41px;
 			overflow:hidden;
 			display: block;
 			text-align:justify;

@@ -26,6 +26,8 @@ width:635px;
 #facebook_like{
     background-color: #FFFFFF;
     box-shadow: 0 0 13px 0 #767676 inset;
+		-webkit-box-shadow: 0 0 13px 0 #767676 inset;
+		-moz-box-shadow: 0 0 13px 0 #767676 inset;
     display: block;
     float: right;
     width: 310px;
