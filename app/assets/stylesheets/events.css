@@ -1,90 +1,66 @@
-#event_content1{
-		display: block;
-		width:960px;
+
+.news_events_border{
+		display:block;
+		width:918px;
+		padding:20px;
+		border:1px solid #ddd;
+		border-top:none;
 		float:left;
-		margin: 30px 0 0;
-		box-shadow:0 0 10px #888888;
-		border-radius:10px;
-		-moz-box-shadow:0 0 10px #888888;
-		-webkit-box-shadow:0 0 10px #888888;
-		-moz-border-radius:10px;
-		-webkit-border-radius:10px;
-		background-color:#fff;
+}
+
+
+.news_events_border h1{
+		display:block;
+		padding:20px 0 20px 0;
+}
+
+.news_events_content{
+	display:block;
+	float:left;
+	width:918px;
+	
+	background:url('line.png') no-repeat bottom;
 	
 }
 
-#event_image {
-    display: block;
-    float: left;
-    height: 150px;
-    padding: 30px 10px 30px 35px;
-    width: 170px;
-}
-
-.events_image{
-		display:block;
-		width:150px;
-		height:150px;	
-}
-
-#event_text{
-		display:block;
-		float:left;
-}
-
-#event_header{
-			display:block;
-			width:700px;
-			height:70px;
-			overflow:hidden;
-}
-
-#event_header p{
-		display:block;
-		font-size: 30px;
-		text-align:justify;
-		font-family: Helvetica,Arial,sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-		color:#2394B8;
-		margin:27px 0 0 0;
-		
-}
-
-#text_lowercase {
-		display:block;
-		width:700px;
-		margin: 20px 0 0 0;
-		
-		
-}
-
-#text_lowercase p{
-		display:block;
-		font-size: 16px;
-		text-align:justify;
-		line-height:25px;
-		font-family: Helvetica,Arial,sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-		color:#696969;
-		margin:0 0 15px 0;
-		
-}
-
-#event_content2{
+.news_events_text{
 		display: block;
-		width:960px;
 		float:left;
-		margin: 30px 0 30px 0;
-	box-shadow:0 0 10px #888888;
-		border-radius:10px;
-		-moz-box-shadow:0 0 10px #888888;
-		-webkit-box-shadow:0 0 10px #888888;
-		-moz-border-radius:10px;
-		-webkit-border-radius:10px;
-		background-color:#fff;
+		width:588px;
+		margin: 0 0 40px 20px;
+		min-height:116px;
+
 }
 
+.news_events_text p{
+		display: block;
+		color:#777978;
+		font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+	
+
+
+width:738px;
+height:111px;
+}
+
+
+.news_events_image{
+			display:block;
+			float:left;
+			width:160px;
+			float:left;
+}
+
+.news_events_name{
+		width:160px;
+		height:116px;
+		display:block;
+		float:left;
+		
+		
+}
