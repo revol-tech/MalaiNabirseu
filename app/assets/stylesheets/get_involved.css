@@ -89,14 +89,6 @@
 
 }
 
-#get_involved_image{
-						background:url('aaa.png') no-repeat left top;
-						width:280px;
-						height:290px;
-						display:block;
-						padding:0px 15px;
-						float:left;
-}
 
 #get_involved_text {
      width: 260px;
@@ -152,7 +144,7 @@ float:left;
 		 box-shadow: 0 0 13px 0 #767676 inset;
 	  -webkit-box-shadow: 0 0 13px 0 #767676 inset;
 		-moz-box-shadow: 0 0 13px 0 #767676 inset;
-		
+
 }
 
 
@@ -165,7 +157,7 @@ float:left;
 		float:left;
 		background-color:#fff;
 		box-shadow:0 0 13px 0 #767676 inset;
-		
+
 }
 
 .sub_content{
@@ -199,7 +191,7 @@ float:left;
 			background:url('get_Involved_Links.png') no-repeat 0px -36px;
 }
 .campaign:hover{
- 
+
 			background:url('get_Involved_Links_Hover.png') no-repeat 0px -36px;
 }
 
@@ -215,7 +207,7 @@ float:left;
 .volunteer:hover{
 
 			background:url('get_Involved_Links_Hover.png') no-repeat right -36px;
-			
+
 
 }
 .donate{
@@ -228,8 +220,48 @@ float:left;
 
 }
 .donate:hover{
- 
-			background:url('get_Involved_Links_Hover.png') no-repeat 0px bottom;
-		
 
+			background:url('get_Involved_Links_Hover.png') no-repeat 0px bottom;
+
+
+}
+
+/*ali get ivolved slider*/
+#slider_get {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  float:left;
+}
+#slider_get ul{
+  list-style:none;
+  float:left;
+  width:325px;
+
+}
+.scroll {
+  height: 250px;
+  overflow: auto;
+  position: relative; /* fix for IE to respect overflow */
+
+  background: #FFFFFF url(images/content_pane-gradient.gif) repeat-x scroll left bottom;
+}
+
+.scrollContainer div.panel {
+  padding: 20px;
+  height: 210px;
+  width: 580px; /* change to 560px if not using JS to remove rh.scroll */
+}
+.scrollButtons {
+  position: absolute;
+  top: 150px;
+  cursor: pointer;
+}
+
+.scrollButtons.left {
+  left: -20px;
+}
+
+.scrollButtons.right {
+  right: -20px;
 }

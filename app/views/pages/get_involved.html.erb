@@ -1,25 +1,35 @@
 <div id="wrapper">
 		<%= render 'navigation'%>
 			<div id="main_getinvolved">
-					
-								
-								<div id="getinvolved_image">
-										 <a href="#"><%= image_tag "news1.png",:class=>"news1_image" %></a>
-										 <a href="#""><%= image_tag "volunteer1.png",:class=>"news1_image" %></a>
-										 <a href="#""><%= image_tag "campaign1.jpg",:class=>"news1_image" %></a>
-										 <a href="#""><%= image_tag "fundraise1.png",:class=>"news1_image" %></a>
-										 <a href="/pages/donate"><%= image_tag "Donate1.png",:class=>"news1_image" %>	</a>
-								</div>
-								
-								
-								<div id="getinvolved_text">
-										<h1>GET INVOLVED</h1>
-											<p>Your support means we can help the nepal's most vulnerable and neglected children and young people
-											</p>
-								</div>
-								
-						
+
+                  <div id="slider_get">
+                              <ul class="navigation">
+                                <li><a href="#sites"><%= image_tag "news1.png",:class=>"news1_image" %></a></li>
+                                <li><a href="#files"><%= image_tag "volunteer1.png",:class=>"news1_image" %></a></li>
+                                <li><a href="#editor"><%= image_tag "campaign1.jpg",:class=>"news1_image" %></a></li>
+                                <li><a href="#preview"><%= image_tag "fundraise1.png",:class=>"news1_image" %></a></li>
+                                <li><a href="#css"><%= image_tag "Donate1.png",:class=>"news1_image" %></a></li>
+
+                              </ul>
+
+                              <!-- element with overflow applied -->
+                              <div class="scroll">
+                                <!-- the element that will be scrolled during the effect -->
+                                <div class="scrollContainer">
+                                  <!-- our individual panels -->
+                                  <div class="panel" id="sites"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                                  <div class="panel" id="files"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                                  <div class="panel" id="editor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                                  <div class="panel" id="preview"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                                  <div class="panel" id="css"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+</div>
+                                </div>
+                              </div>
+
+
+
 			</div>
+</div>
 </div>
 
  <%= render 'lowercontent'%>
