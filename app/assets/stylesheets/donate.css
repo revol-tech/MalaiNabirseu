@@ -1,21 +1,78 @@
-#debit{
+#donate_content{
 		display:block;
+		width:960px;
+		height:645px;
+		float:left;
+		background-color:#3a3a3a;
 		margin:0 0 30px 0;
 }
-#debit p{
+
+#donate_text{
 		display:block;
-		color:#2394B8;
-		font-size:18px;
-}
-
-#debit strong{
-		color:	#696969;
-		font-size:15px;
+		margin:0 0 0px;
+		float:left;
 }
 
 
-#debit span{
+#donate_text h1{
+		display:block;
+		float:left;
+		padding:40px 0 40px 40px;
+		font-size:30px;
+		font-weight:bold;
+		font-family:Helvetica,Arial,sans-serif;
+		color:#f36363;
+}
+
+
+#donate_text p{
+		display:block;
+		float:left;
+		width:820px;
+		height:118px;
+		margin:0 60px;
+		background-color:#f1f1f1;
+		color:#666666;
+		padding:10px;
+		line-height:20px;
 		font-size:13px;
 }
 
+#donate_education{
+		display:block;
+		margin:0px 60px 0 0;
+		float:left;
+		width:900px;
+}
 
+
+.general_donation{
+		display:block;
+		margin:40px 0 0px 40px;
+		float:left;
+		background-color:#f1f1f1;
+		width:300px;
+}
+
+.general_donation h1{
+		dislpay:block;
+		color:#3cb5ec;
+		float:left;
+		font-size:30px;
+		margin:0 0 0 5px;
+		font-weight:bold;
+		font-family:Helvetica,Arial,sans-serif;
+}
+
+
+.general_donation_text{
+		display:block;
+		float:right;
+		width:540px;
+		margin:40px 0 0 0;
+}
+
+.general_donation_text{
+		display:block;
+		color:#fdfdfd;
+}

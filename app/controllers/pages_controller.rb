@@ -40,6 +40,8 @@ class PagesController < ApplicationController
   end
 
   def donate
+		@children = ChildrenSlider.all()
+		@news = News.all()
   end
 
 	 def site_map
