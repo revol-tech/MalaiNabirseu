@@ -90,6 +90,17 @@
 }
 
 
+
+#get_involved_image{
+						background:url('aaa.png') no-repeat left top;
+						width:280px;
+						height:290px;
+						display:block;
+						padding:0px 15px;
+						float:left;
+}
+
+
 #get_involved_text {
      width: 260px;
     display:block;
