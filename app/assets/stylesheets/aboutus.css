@@ -17,7 +17,7 @@
 		color:#f36363;
 }
 
-#aboutus_content p{
+#aboutus_content p, .panel p{
 				display: block;
 				color:#777978;
 				font-size: 14px;

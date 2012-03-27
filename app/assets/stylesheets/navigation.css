@@ -103,5 +103,26 @@
 		text-decoration:none;
 }
 
+#nav #sub_nav a{
+		display:block;
+		padding:3px 11px 2px 11px;
+
+		color:#42b2e0;
+border-radius:5px;
+font:normal 11px "arial"; 
+text-transform:uppercase;
+}
+#nav #sub_nav a:hover{
+
+
+		background-color:#42b2e0;
+color:#fff;
+
+}
+#nav #sub_nav a span{
+padding:0;
+background:none;
+}
+
 
 /*...END OF NAVIGATION...*/

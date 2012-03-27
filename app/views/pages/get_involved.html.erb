@@ -1,31 +1,16 @@
 <div id="wrapper">
 		<%= render 'navigation'%>
 			<div id="main_getinvolved">
-         <div id='content'>
-            <a href="#"><%= image_tag "news1.png",:class=>"news1_image",:id=>"button" %></a>
-         </div>
-<!--popup content-->
-	      <div id="popupContainer" class="hidden">
-	        	<a id="close" class="hidden" title="close popup"></a>
-		         <h1>Title goes here</h1>
-		           <p id="contactArea">
-        	        Some content goes here
-			            <br/> <br/>
-                   It can hold a form or a confirm popup
-                  <br/><br/><br/>
-		              	A tutorialpot demo with love
-	            	</p>
-	       </div>
-	       <div id="overlayEffect">
-         </div>
-  <!--end popup content-->
+         
+
   <!--text slider-->
        <div id="slider_get">
           <ul class="navigation">
-              <li><a href="#files"><%= image_tag "volunteer1.png",:class=>"news1_image" %></a></li>
-              <li><a href="#editor"><%= image_tag "campaign1.jpg",:class=>"news1_image" %></a></li>
-              <li><a href="#preview"><%= image_tag "fundraise1.png",:class=>"news1_image" %></a></li>
-              <li><a href="#css"><%= image_tag "Donate1.png",:class=>"news1_image" %></a></li>
+              <li><a href="#files" class="getinvolved_volunteer"></a></li>
+              <li><a href="#editor" class="getinvolved_campaign"></a></li>
+              <li><a href="#preview" class="getinvolved_fundraise"></a></li>
+              <li><a href="#css" class="getinvolved_donate"></a></li>
+							
             </ul>
 <!-- element with overflow applied -->
             <div class="scroll">
@@ -33,17 +18,52 @@
             <div class="scrollContainer">
     <!-- our individual panels -->
             <div class="panel" id="files">
-                                  <h1>volunteer</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-                                  <div class="panel" id="editor"> <h1>campaign</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-                                  <div class="panel" id="preview">  <h1>fundraise</h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
-                                  <div class="panel" id="css"> <h1>donate</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+                                  <h1 class="volunteerh1">volunteer</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
+                                  <div class="panel" id="editor"> <h1 class="campaignh1">campaign</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P> </div>
+                                  <div class="panel" id="preview">  <h1 class="fundraiseh1">fundraise</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
+                                  <div class="panel" id="css"> <h1 class="donateh1">donate</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
 </div>
                                 </div>
+
                               </div>
 
+<div id='content'>
+            <a href="#" class="getinvolved_newsletter" id="button"></a>
+</div>
+<!--popup content-->
+	      <div id="popupContainer" class="hidden">
+	        	<a id="close" class="hidden" title="close popup"></a>
+		         <h1 class="newsletter_signup">Newsletter Signup</h1>
+			<div id="newsletter_text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+						<div class="form_block">
+								<div class="form_holder">
+								    <label for="name">Name</label>
+										<input type="text" name="name" class="form_input">
+								</div>
+								<div class="form_holder">
+										<label for="email">email</label>
+										<input type="text" name="email" class="form_input">
+							</div>
+							<div class="form_holder">
+				    	     <label for="comment">Comment</label>
+									<textarea type="text" class="textarea"></textarea>  
+							</div>
+							<div class="form_holder"> 
 
+									<input type=""  class="submit_Btn">
+						</div>
+				</div>
+                   
+                  
+	  </div>
+	       <div id="overlayEffect">
+         </div>
+  <!--end popup content-->
 
 			</div>
+
 </div>
 </div>
 
