@@ -3,10 +3,8 @@
   float:left;
   display:block;
   width:100%;
-
 	background:#393939;
 	border-top:5px solid #c7c5c6;
-
 	padding:0 0 0 0 !important;
 }
 
@@ -30,7 +28,6 @@ float:left;
     list-style: none outside none;
     padding-bottom: 4px;
     padding-top:4px;
-
     width: 255px;
 }
 
@@ -108,27 +105,26 @@ padding:10px 0 7px 0;
 
 #powered_by a{
 	 display: block;
-  text-decoration:none;
-  color:#3c3c3c;
+   text-decoration:none;
+   color:#3c3c3c;
 }
 
 #footer_link{
 	 display: block;
-  width:765px;
-  float:left
+   width:765px;
+   float:left
 
 }
 #social_network{
 	 display: block;
-  height:68px;
-  width:149px;
-  float:left;
+   height:68px;
+   width:149px;
+   float:left;
 
 }
 .facebook {
     background: url("socialNetwork_Btn.png") no-repeat scroll left top ;
     display: block;
-
     height: 34px;
     width: 149px;
 }
@@ -146,7 +142,6 @@ padding:10px 0 7px 0;
 .twitter {
     background: url("socialNetwork_Btn.png") no-repeat scroll left bottom ;
     display: block;
-
     height: 34px;
     width: 149px;
 }

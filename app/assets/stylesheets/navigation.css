@@ -33,7 +33,6 @@
 
 #nav{
    background:url("menu_Bg.png") no-repeat;
-
    float: right;
    height: 103px;
    display:block;
@@ -106,17 +105,17 @@
 #nav #sub_nav a{
 		display:block;
 		padding:3px 11px 2px 11px;
-
 		color:#42b2e0;
-border-radius:5px;
-font:normal 11px "arial"; 
-text-transform:uppercase;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		font:normal 11px "arial"; 
+		text-transform:uppercase;
 }
+
 #nav #sub_nav a:hover{
-
-
 		background-color:#42b2e0;
-color:#fff;
+		color:#fff;
 
 }
 #nav #sub_nav a span{

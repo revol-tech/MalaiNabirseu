@@ -13,10 +13,10 @@
 
 }
 .title_focus{
-width:50px;
-height:50px;
-display:block;
-float:left;
+		width:50px;
+		height:50px;
+		display:block;
+		float:left;
 
 }
 .what_we_text h1{
@@ -24,7 +24,7 @@ float:left;
 		color:#777978;
 		font-size:45px;
 		font-weight:bold;
-margin:0 0 0 75px;
+		margin:0 0 0 75px;
 }
 
 .what_we_text p{
@@ -36,19 +36,18 @@ margin:0 0 0 75px;
     font-weight: normal;
     letter-spacing: normal;
     line-height: 16px;
-	
-margin:20px 0 0 0;
-background-color:#777978;
-width:558px;
-height:111px;
-padding:15px 15px 15px 15px;
+		margin:20px 0 0 0;
+		background-color:#777978;
+		width:558px;
+		height:111px;
+		padding:15px 15px 15px 15px;
 }
 
 .what_we_image{
 			display:block;
 			float:left;
-width:300px;
-margin:0 30px 0 0;
+			width:300px;
+			margin:0 30px 0 0;
 			
 }
 
@@ -59,24 +58,24 @@ margin:0 30px 0 0;
 		
 }
 .griha_border_red{
-float:left;
-width:300px;
+		float:left;
+		width:300px;
 		height:20px;
 		display:block;
-background-color:#f36363;
+		background-color:#f36363;
 }
 .griha_border_blue{
-float:left;
-width:300px;
+		float:left;
+		width:300px;
 		height:20px;
 		display:block;
-background-color:#40B4E3;
+		background-color:#40B4E3;
 }
 .griha_border_gray{
-float:left;
-width:300px;
+		float:left;
+		width:300px;
 		height:20px;
 		display:block;
-background-color:#777978;
+		background-color:#777978;
 }
 

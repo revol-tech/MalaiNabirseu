@@ -16,9 +16,7 @@
 
 .anyClass li{
     float: left;
-
     list-style: none outside none;
- 
     overflow: hidden;
     padding: 0;
     
