@@ -8,8 +8,8 @@
 //= require jquery_ujs
 //= require_tree .
 
- 
-    
+
+
 
 //children_slider
 
@@ -46,8 +46,16 @@ $(function() {
 
 					$item.bind('click',function(){
 						var $this 		= $(this);
-						$cn_list.find('.selected').removeClass('selected');
-						$this.addClass('selected');
+
+            //chk if currently clicked link is already displaying
+            if(!$this.hasClass('selected')){
+              // if not, show 'click' link on previously hidden link
+              // & hide the 'click' link on current link
+						  $cn_list.find('.selected').removeClass('selected').find('.click').show('.click');
+						  $this.addClass('selected').find('.click').hide('.click');
+            }
+
+
 						var idx			= $(this).data('idx');
 						var $current 	= $cn_preview.find('.cn_content:nth-child('+current+')');
 						var $next		= $cn_preview.find('.cn_content:nth-child('+idx+')');
@@ -67,6 +75,13 @@ $(function() {
 						current = idx;
 					});
 				});
+
+
+        /*
+          Hide "click" on the default link
+        */
+        $cn_list.find('.selected').find('.click').hide();
+
 
 				/*
 				shows next page if exists:
