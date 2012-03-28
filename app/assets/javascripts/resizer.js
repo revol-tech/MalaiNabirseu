@@ -35,18 +35,19 @@ $(document).ready(function(){
 $(function(){
   $(".anyClass").jCarouselLite({
 	  auto:true,
-  	speed:5000,
+  	speed:4000,
   	visible:1,
   	resizeable:true,
   	showInfo:true,
   	info_on_hover:false
+
   });
 })
 
 $(function(){
   $("#children").jCarouselLite({
 	    auto:true,
-	    speed:1200,
+	    speed:1000,
 	    visible:5,
 	    showInfo:false,
 	    info_on_hover:true,

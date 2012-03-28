@@ -114,9 +114,69 @@
 		display: block;
 }
 
-#children span{
-		display:block;
-		color: #EE5E75;
+
+.slide{
+  border:5px solid #cfcfcf;
+  width:143px;
+
 }
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+
+
+
+#children li {
+margin-left:10px;
+margin-right:10px;
+}
+
+.imgname{
+  top:-4px;
+  position:absolute;
+  width:153px;
+  height:124px;
+  overflow:hidden;
+  background:rgba(0,0,0,0.3);
+color:#fff;
+cursor:pointer;
+}
+
+.imgname strong{
+	font:bold 12px "arial";
+color:#000;
+float:left;
+width:143px;
+display:block;
+padding:5px;
+ background:rgba(255,255,255,0.7);
+}
+
+
+#children h2 {
+font:normal 12px "arial";
+float:left;
+width:143px;
+display:block;
+padding:5px;
+height:79px;
+overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
