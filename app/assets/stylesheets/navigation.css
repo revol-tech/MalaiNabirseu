@@ -50,7 +50,7 @@
 
 #sidebar_content a:hover{
 			background:url('hoverleft2.png') no-repeat 0 50%;
-
+			
 }
 
 #nav a:hover span{
@@ -98,7 +98,7 @@
 #sub_nav{
 		display:block;
 		float:left;
-		margin:-15px 0 0 360px;
+		margin:0px 0 0 360px;
 		text-decoration:none;
 }
 
