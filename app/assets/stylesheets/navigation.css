@@ -98,7 +98,7 @@
 #sub_nav{
 		display:block;
 		float:left;
-		margin:-15px 0 0 360px;
+		margin:0px 0 0 360px;
 		text-decoration:none;
 }
 
@@ -109,7 +109,7 @@
 		border-radius:5px;
 		-moz-border-radius:5px;
 		-webkit-border-radius:5px;
-		font:normal 11px "arial"; 
+		font:normal 11px "arial";
 		text-transform:uppercase;
 }
 
