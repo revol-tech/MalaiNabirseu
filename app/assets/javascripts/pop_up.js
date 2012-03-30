@@ -2,7 +2,7 @@
 
 var popup = false;
 
-$("#button").click(function(){
+$("#button,#button1,#button2,#button3,#button4").click(function(){
 	if(popup == false){
 		$("#overlayEffect").fadeIn("slow");
 		$("#popupContainer").fadeIn("slow");
