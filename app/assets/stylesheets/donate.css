@@ -6,7 +6,7 @@ float:left;
 -moz-box-shadow: 0 0 36px #d2d1d1;
 -webkit-box-shadow: 0 0 36px#d2d1d1;
 box-shadow: 0 0 36px #d2d1d1;
-margin:30px 0 30px 0;
+margin:30px 0 0px 0;
 }
 
 
@@ -25,19 +25,21 @@ margin:30px 0 30px 0;
 
 .donate_header h1{
 		display: block;
-   padding:10px;
+   	padding:10px;
 		float:left;
 		color:#fff;
 		text-transform:uppercase;
-	font:bold 25px "arial";
+		font:bold 25px "arial";
 		text-shadow: 0px 2px 3px #666;
+		-moz-text-shadow: 0px 2px 3px #666;
+		-webkit-text-shadow: 0px 2px 3px #666;
 }
 
 .donate_block{
 		display:block;
 		width:920px;
 		padding:18px 20px 20px 20px;
-background-color:#fff;
+		background-color:#fff;
 		border-top:none;
 		float:left;
 	
@@ -47,13 +49,10 @@ background-color:#fff;
 #main_title {
 	display:block;
 	color:#f36363;
-
-width:100%;
-float:left;
-
-	
-background:url('malaiNabirseuBalGriha_Img.png') no-repeat left top;
-height:33px;
+	width:100%;
+	float:left;
+	background:url('malaiNabirseuBalGriha_Img.png') no-repeat left top;
+	height:33px;
 }
  
 
@@ -70,10 +69,10 @@ height:33px;
 }
 
 .block_donation{
-display:block;
-float:left;
-width:920px;
-border-bottom:5px solid #bababa;
+	display:block;
+	float:left;
+	width:920px;
+	border-bottom:5px solid #bababa;
 	margin:20px 0 0 0;
 }
 
@@ -134,6 +133,8 @@ border-bottom:5px solid #bababa;
 	margin:0 0 20px 20px;
 	cursor:pointer;
 	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
 }
 
 .button_text{
@@ -170,6 +171,9 @@ border-bottom:5px solid #bababa;
 	margin:0 0 20px 20px;
 	cursor:pointer;
 	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	
 }
 
 .sponsor_text{
@@ -198,30 +202,16 @@ border-bottom:5px solid #bababa;
 
 
 
-
-#content_donate{
-	display:block;
-	float:right;
-}
-
-
-.donate_popup{
+.line_image_border1{
 		display:block;
-		width:110px;
-		height:49px;
-		background:url('fancy_Btn.png') no-repeat 0px 0px #9a9a9a;
-		border-radius:5px 5px 5px 5px;
-		-moz-border-radius:5px 5px 5px 5px;
-		-webkit-border-radius:5px 5px 5px 5px;;
-		margin:0 0 20px 0;
-		
-	
+		width:960px;
+		height:8px;
+		background:url('border_Img.png') repeat-x left bottom;
+		float:left;
+		margin:30px 0 30px 0;
 }
 
-.donate_popup:hover{
 
-		background-color:#808080;
-}
 
 
 

@@ -93,23 +93,25 @@
     width: 960px;
 		float:left;
 		background-color:#2CB68C;
-		margin:30px 0 0 0;
+		margin:30px 0 0px 0;
 		height:49px;
 		
 }
 
 .boardmember{
 		display: block;
-		width:958px;
+		width:960px;
 		float:left;
-		border:1px solid #2CB68C;
+
 		border-top:none;
+
+		margin:0 0 30px 0;
 }
 
 .profile{
 			display:block;
-			width:958px;
-			padding:20px 0 0 0;
+			width:960px;
+			margin:20px 0 20px 0;
 			float:left;
 }
 
@@ -118,16 +120,16 @@
 .boardmember_profile1{
 	display:block;
 	float:left;
-	width:439px;
-	padding:20px;
+	width:470px;
+
 }
 
 
 .boardmember_profile2{
 	display:block;
-	width:439px;
-	padding:20px;
-	float:left;
+	width:470px;
+
+	float:right;
 }
 
 
@@ -151,15 +153,11 @@
 .board_image{
 			display:block;
 			float:left;
-			
+					width:160px;
+		height:116px;
+border:5px solid #C0DADE;
 }
 
-.board_name{
-		width:160px;
-		height:116px;
-		display:block;
-		
-}
 
 .board_text{
 		display: block;
@@ -180,9 +178,13 @@
 	float:left;
 }
 
-.line2_image{
-		margin:30px 0 ;
-}
+.line_image_border2{
+	display:block;
+	width:960px;
+	height:8px;
+	float:left;
+	background:url('border_Img.png') repeat-x left bottom;
 
+}
 
 

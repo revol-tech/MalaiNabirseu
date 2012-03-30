@@ -107,10 +107,8 @@ padding:6px 11px 6px 10px;
 
 #sub_nav{
 	display:block;
-	float:left;
-	width:100%;
-
-	height:50px;
+	float:right;
+	margin:7px 7px 0 0; 
 }
 
 #sub_nav ul{
@@ -123,23 +121,30 @@ padding:6px 11px 6px 10px;
 #sub_nav li{
 	display:inline;
 	float:right;
+margin:0 0 0 10px;
 }
 
 #sub_nav a{
 	text-decoration:none;
 	font:12px "arial";
 	display:block;
-	color:#767676;
-	padding:6px 12px;
-	background-color:#40B4E3;
-	border-radius:5px;
+	color:#777978;
+
 	
 	
 }
 #sub_nav a:hover{
 	
-	background-color:#2CB68C;
+text-decoration:underline;
 	
+}
+
+.nav_donate_Btn{
+	display:block;
+	width:170px;
+	height:43px;
+	float:right;
+	background:url('donate.png') no-repeat left top;
 }
 
 

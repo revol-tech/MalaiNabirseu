@@ -4,7 +4,7 @@
   			width:100%;
 				height:144px;
   			border-top:5px solid #c0dade;
- 				border-bottom:5px solid #c0dade;
+ 				
 				background:url('sliderwrapper_Bg.png')repeat-x top left;
 				
 
@@ -23,7 +23,7 @@
   float:left;
   margin-right:10px;
   margin-left:10px;
-	height:144px;
+	height:134px;
 }
 
 .prev {
