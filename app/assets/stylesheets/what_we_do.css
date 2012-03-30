@@ -2,80 +2,65 @@
 	display:block;
 	float:left;
 	width:918px;
-	padding:20px;
+	margin:20px 0px 20px 0px;
 }
+
+.what_we_do_content{
+		display: block;
+		width:918px;
+		float:left;
+		border:1px solid #ddd;
+		border-top:none;
+}
+
 
 .what_we_text{
 		display: block;
-		float:right;
-		width:588px;
-		margin: 0 0 0 0px;
-
-}
-.title_focus{
-		width:50px;
-		height:50px;
-		display:block;
 		float:left;
-
+		width:598px;
+		margin: 0 0 0 0px;
+overflow:hidden;
+min-height:205px;
+border-bottom:5px solid #C0DADE;
 }
+
 .what_we_text h1{
-		display: block;
-		color:#777978;
-		font-size:45px;
-		font-weight:bold;
-		margin:0 0 0 75px;
+	
+
+		 color: #F36363;
+    display: block;
+    float: left;
+    font-size: 38px;
+    font-weight: bold;
+
+    position: relative;
+    top: -10px;
+    width: 100%;
 }
 
 .what_we_text p{
-		display: block;
-		color:#fff;
-		font-family: Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    line-height: 16px;
-		margin:20px 0 0 0;
-		background-color:#777978;
-		width:558px;
-		height:111px;
-		padding:15px 15px 15px 15px;
+color: #777978;
+    display: block;
+    float: left;
+    font: 13px/18px 'Arial';
+
+
+    width: 598px;
 }
 
 .what_we_image{
 			display:block;
 			float:left;
 			width:300px;
-			margin:0 30px 0 0;
+			margin:0 20px 0 0;
 			
 }
 
 .what_we_name{
-		width:300px;
+		width:290px;
 		height:200px;
 		display:block;
+		border:5px solid #C0DADE;
 		
-}
-.griha_border_red{
-		float:left;
-		width:300px;
-		height:20px;
-		display:block;
-		background-color:#f36363;
-}
-.griha_border_blue{
-		float:left;
-		width:300px;
-		height:20px;
-		display:block;
-		background-color:#40B4E3;
-}
-.griha_border_gray{
-		float:left;
-		width:300px;
-		height:20px;
-		display:block;
-		background-color:#777978;
 }
 

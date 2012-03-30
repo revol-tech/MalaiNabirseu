@@ -2,30 +2,35 @@
 .news_events_border{
 		display:block;
 		width:918px;
-		padding:20px;
-		border:1px solid #ddd;
+		padding:0 20px 20px 20px;
+		border:1px solid #FCC956;
 		border-top:none;
 		float:left;
+		
 }
 
 
 .news_events_border h1{
 		display:block;
-		padding:20px 0 20px 0;
+		padding:0px 0 20px 0;
+	color:#777978;
+float:left;
+width:100%;
 }
 
 .news_events_content{
 	display:block;
 	float:left;
 	width:918px;
-	background:url('line.png') no-repeat bottom;
+	background:url('line.png') no-repeat left bottom;
+	margin:20px 0 0 0;
 	
 }
 
 .news_events_text{
 		display: block;
 		float:left;
-		width:588px;
+		width:738px;
 		margin: 0 0 40px 20px;
 		min-height:116px;
 
@@ -34,14 +39,10 @@
 .news_events_text p{
 		display: block;
 		color:#777978;
-		font-family: Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    line-height: 16px;
-		width:738px;
-		height:111px;
+		font:12px/18px "Arial", sans-serif;
+   
+
+
 }
 
 

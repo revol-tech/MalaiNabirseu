@@ -236,7 +236,7 @@
 /*ali get ivolved slider*/
 #slider_get {
   width: 960px;
-  margin: 0 auto;
+  margin: 22px auto;
   position: relative;
   float:left;
 }
@@ -372,8 +372,8 @@
 	position:fixed;
 	z-index:3200;
 	position:absolute;
-	top:-25px;
-	right:-22px;
+	top:-12px;
+	right:-12px;
 }
 #button
 {
@@ -485,7 +485,7 @@
 
 label{
 	display:block;
-	width:100px;
+	width:80px;
 	float:left;
 	color:#777978;
 }
@@ -494,7 +494,7 @@ label{
 .form_block{
 		display:block;
 		float:left;
-		margin:20px 0 0 66px;
+		margin:20px 0 0 86px;
 		left:50%
 
 }
@@ -502,7 +502,7 @@ label{
 .form_holder{
 		display:block;
 		float:left;
-		width:351px;
+		width:331px;
 		margin:0 0 20px 0;
 }
 
@@ -528,9 +528,9 @@ label{
 #newsletter_text p{
 	display:block;
 	float:left;
-	font:normal 11px "arial";
+	font:normal 12px/16px "arial";
 	color:#484848;
-	line-height:16px;
+
 }
 
 .textarea{

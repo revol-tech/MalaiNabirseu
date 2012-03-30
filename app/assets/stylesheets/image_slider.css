@@ -23,7 +23,7 @@
   float:left;
   margin-right:10px;
   margin-left:10px;
-
+	height:144px;
 }
 
 .prev {
@@ -133,6 +133,9 @@
 #children li {
 margin-left:10px;
 margin-right:10px;
+width:153px;
+height:124px;
+display:block;
 }
 
 .imgname{

@@ -48,7 +48,7 @@
 		float:left;
 }
 
-#sidebar_content a:hover{
+.sidebar_content a:hover{
 			background:url('hoverleft2.png') no-repeat 0 50%;
 			
 }
@@ -64,6 +64,7 @@ float:left;
 }
 .select1{	
 	background:url('hoverright.gif') no-repeat 100% 50%;
+
 	float:left;
 color:#767676;
 	}
@@ -104,10 +105,49 @@ color:#767676;
 padding:6px 11px 6px 10px;
 }
 
+#sub_nav{
+	display:block;
+	float:left;
+	width:100%;
+
+	height:50px;
+}
+
+#sub_nav ul{
+	display:block;
+	list-style:none;
+	float:right;
+}
+
+
+#sub_nav li{
+	display:inline;
+	float:right;
+}
+
+#sub_nav a{
+	text-decoration:none;
+	font:12px "arial";
+	display:block;
+	color:#767676;
+	padding:6px 12px;
+	background-color:#40B4E3;
+	border-radius:5px;
+	
+	
+}
+#sub_nav a:hover{
+	
+	background-color:#2CB68C;
+	
+}
 
 
 
 
+#sub_nav  span{
+	
+}
 
 
 /*...END OF NAVIGATION...*/
