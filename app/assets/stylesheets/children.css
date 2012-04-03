@@ -89,6 +89,8 @@ body{
 	border:1px solid #ddd;
 	color:#000;
 	text-shadow:-1px 0px 1px #fff;
+	-moz-text-shadow:-1px 0px 1px #fff;
+	-webkit-text-shadow:-1px 0px 1px #fff;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
@@ -147,6 +149,8 @@ a.cn_more{
 .cn_item:active {
 	color: #011c44;
 	text-shadow: 1px 1px 1px #ccdffc;
+	-moz-text-shadow: 1px 1px 1px #ccdffc;
+	-webkit-text-shadow: 1px 1px 1px #ccdffc;
 }
 
 .cn_list p{
