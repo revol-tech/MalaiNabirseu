@@ -4,7 +4,7 @@ $(function(){
 				startheight: 480,
 				vertical_center: 1,
 				slideshow: 1,
-				navigation: 1,
+				navigations: 1,
 				transition: 1, //0-None, 1-Fade, 2-slide top, 3-slide right, 4-slide bottom, 5-slide left
 				pause_hover: 1,
 				slide_counter: 1,

@@ -5,6 +5,7 @@
 
 							<div class="news_image">
 
+<%     @news = News.order("news_desc").page(params[:page]).per(2)  %>
 <% @news.each do |t| %>
 							   <div class="image">
 									
@@ -33,7 +34,7 @@
 <%end%>
 
 							</div>		<!--end of news_image-->
-
+<%= paginate @news %>
 								<div id="bottom_border">
 								</div>
 

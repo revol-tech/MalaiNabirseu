@@ -33,7 +33,7 @@
 <%end%>
 
 							</div>		<!--end of news_image-->
-
+<%= paginate @news %>
 								<div id="bottom_border">
 								</div>
 
