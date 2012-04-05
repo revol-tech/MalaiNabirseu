@@ -17,9 +17,9 @@
 						<p><%= t.news_desc%></p>		
 							
           </div>
-
-</div>
 <%end%>
+</div>
+
 </div>
 <div class="line_image_border1">
 </div>	

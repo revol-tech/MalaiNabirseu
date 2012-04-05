@@ -14,17 +14,17 @@ class PagesController < ApplicationController
 
   def get_involved
 		@children = ChildrenSlider.all()
-		@news = News.all()
+
   end
 
   def events
 		@children = ChildrenSlider.all()
-		@news = News.all()
+    @news = News.all()
   end
 
   def children
 		@children = ChildrenSlider.all()
-		@news = News.all()
+
   end
 
   def who_we_are
@@ -32,7 +32,7 @@ class PagesController < ApplicationController
 
   def what_we_do
 			@children = ChildrenSlider.all()
-		@news = News.all()
+
   end
 
   def how_to_help
@@ -40,7 +40,7 @@ class PagesController < ApplicationController
 
   def donate
 		@children = ChildrenSlider.all()
-		@news = News.all()
+
   end
 
 	 def site_map

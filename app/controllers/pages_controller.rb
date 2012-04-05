@@ -19,7 +19,7 @@ class PagesController < ApplicationController
 
   def events
 		@children = ChildrenSlider.all()
-
+    @news = News.all()
   end
 
   def children
