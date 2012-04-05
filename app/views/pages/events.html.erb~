@@ -17,10 +17,12 @@
 						<p><%= t.news_desc%></p>		
 							
           </div>
-<%end%>
-</div>
 
 </div>
+<%end%>
+<%= paginate @news %>
+</div>
+
 <div class="line_image_border1">
 </div>	
 </div>

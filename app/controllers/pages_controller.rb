@@ -19,7 +19,7 @@ class PagesController < ApplicationController
 
   def events
 		@children = ChildrenSlider.all()
-    @news = News.all()
+    @news = News.order("news_desc").page(params[:page]).per(2)
   end
 
   def children
