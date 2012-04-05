@@ -67,8 +67,8 @@ $(function(){
 	    visible:5,
 	    showInfo:false,
 	    info_on_hover:true,
-	     btnPrev:'.prev',
-       btnNext:'.next'
+	     btnPrev:'.prev1',
+       btnNext:'.next1'
 
   });
 

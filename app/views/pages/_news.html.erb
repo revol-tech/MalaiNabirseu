@@ -3,10 +3,12 @@
 									<%= image_tag "news.png" %>
 							</div>	<!--end of image_tag-->
 
-							<div class="news_image">
+							<div class="news_content">
 
 <%     @news = News.order("news_desc").page(params[:page]).per(2)  %>
 <% @news.each do |t| %>
+								
+								<div class="news_image">
 							   <div class="image">
 									
 									   <%= image_tag "#{t.news_image}", :width=>"95",:height=>"92"%>
@@ -31,11 +33,12 @@
 										</div>		<!--end of strong-->
 
 								</div>	<!--end of news_text-->
+									</div>		<!--end of news_image-->
+							
 <%end%>
-
-							</div>		<!--end of news_image-->
+</div>
+							
 <%= paginate @news %>
-								<div id="bottom_border">
-								</div>
+								
 
 				</div>		<!--end of news-->

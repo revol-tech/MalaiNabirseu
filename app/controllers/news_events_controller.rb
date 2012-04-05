@@ -10,6 +10,8 @@ class NewsEventsController < ApplicationController
   end
 
   def news
+		@children = ChildrenSlider.all()
+			@news = News.all()
   end
 
 
