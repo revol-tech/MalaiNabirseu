@@ -1,13 +1,27 @@
 class PagesController < ApplicationController
   def index
+  	binding.pry
    	 @whoweare = WhoWeAre.all()
      	 @whatwedo = WhatWeDo.all()
      	 @howtohelp = HowToHelp.all()
     @children = ChildrenSlider.all()
     @banner=Banner.all()
+    @news	 = News.order("news_desc").page(params[:page]).per(2) 
+    respond_to do |format|
+      format.html
+      format.js
+      end
 
   end
 
+	def news_paginator
+  	binding.pry
+     @news_view = News.order("created_at").page(params[:page]).per(2)
+     respond_to do |format|
+      format.js
+    end
+  end
+  
   def about_us
 		@children = ChildrenSlider.all()
   end

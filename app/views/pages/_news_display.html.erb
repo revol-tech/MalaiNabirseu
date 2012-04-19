@@ -1,0 +1,16 @@
+<div id="news">
+							<div class="image_tag">
+									<%= image_tag "news.png" %>
+							</div>	<!--end of image_tag-->
+
+							<div class="news_content">
+                  <div id="newss">
+			                  <%= render @news %>
+                  </div>
+              </div>
+
+              <div id="paginator_news">
+                   <%= paginate @news, :remote => true, :params => {:controller => :pages, :action => :news_paginator } %>
+              </div>
+
+</div>		<!--end of news-->

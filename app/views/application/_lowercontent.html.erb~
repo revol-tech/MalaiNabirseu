@@ -3,7 +3,7 @@
      <div id="sub_lower_content">
 <div class="low_block_1">
 
- <%= render 'news_display' %>
+ <%= render 'news' %>
 <%= render 'get_involved'%>
 
 <div class="add_block">
