@@ -43,7 +43,7 @@ MalaiNabirseu::Application.routes.draw do
   get "pages/contact"
 	
 
-
+	resources :pages
 	resources :pages do
     collection do
       get 'news_paginator'

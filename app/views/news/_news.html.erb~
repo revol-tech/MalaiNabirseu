@@ -1,30 +1,20 @@
-<div id="news">
-							<div class="image_tag">
-									<%= image_tag "news.png" %>
-							</div>	<!--end of image_tag-->
-
-							<div class="news_content">
-
-<%     @news = News.order("news_desc").page(params[:page]).per(2)  %>
-<% @news.each do |t| %>
-								
-								<div class="news_image">
+<div class="news_image">
 							   <div class="image">
 									
-									   <%= image_tag "#{t.news_image}", :width=>"95",:height=>"92"%>
+									   <%= image_tag "#{news.news_image}", :width=>"95",:height=>"92"%>
 								   
 								    </div>
 									<div class="news_text">
 										<div class="strong">
 											<strong>
-									         <p><%= t.news_title%></p>
+									         <p><%= news.news_title%></p>
 									      </strong>
 										</div>		<!--end of strong-->
 
 
 									<div class="latest_news">
 												<p>	
-									          <p><%= t.news_desc%></p>
+									          <p><%= news.news_desc%></p>
 								        	
 												</p>
 									</div>		<!--end of latest-news-->
@@ -34,11 +24,4 @@
 
 								</div>	<!--end of news_text-->
 									</div>		<!--end of news_image-->
-							
-<%end%>
-</div>
-							
-<%= paginate @news %>
-								
-
-				</div>		<!--end of news-->
+	 <%= paginate @news, :remote => true, :params => {:controller => :pages, :action => :news_paginator } %>						

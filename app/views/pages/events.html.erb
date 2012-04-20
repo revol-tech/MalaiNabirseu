@@ -5,26 +5,25 @@
 		</div>
 
 	<div class="news_events_border">
-<% @news.each do |t| %>
+<% @news_top.each do |top| %>
 				<div class="news_events_content">
-					<h1> <%= t.news_title%></h1>
+					<h1> <%= top.news_title%></h1>
 
 					<div class="news_events_image">
-<%= image_tag "#{t.news_image}",:class=>"news_events_name"%>
+<%= image_tag "#{top.news_image}",:class=>"news_events_name"%>
 					</div>		<!--end of board_image---->
-					
+
 					<div class="news_events_text">
-						<p><%= t.news_desc%></p>		
-							
+						<p><%= top.news_desc%></p>
+
           </div>
 
 </div>
 <%end%>
-<%= paginate @news %>
 </div>
 
 <div class="line_image_border1">
-</div>	
+</div>
 </div>
 <%= render 'image_slider'%>
 <%= render 'lowercontent'%>
