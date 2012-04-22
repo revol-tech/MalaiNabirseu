@@ -70,7 +70,7 @@
 
 .read_more{
 		float:right;
-		font-size: 11px;
+		 font: 11px "Courier New";
 		display:block;
 		padding:5px 10px 0 0;
 }
@@ -100,9 +100,10 @@
 	float:left;
 	width:295px;
 	margin:0 0 0 15px;
-	
+	color:	#A52A2A;
 }
 
-
-
+.pagination a{
+	color:#f36363;
+}
 

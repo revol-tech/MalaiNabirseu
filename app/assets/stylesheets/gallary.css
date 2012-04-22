@@ -1,0 +1,43 @@
+#gallary_border{
+		display:block;
+		float:left;
+		border:1px solid #2CB68C;
+}
+
+.gallary_border{
+		display:block;
+		width:918px;
+		padding:0 20px 20px 20px;
+		border:1px solid #2CB68C;
+		border-top:none;
+		float:left;
+}
+
+#gallary_content{
+	display:block;
+	width:918px;
+	float:left;
+	margin:20px 0 0 0px;
+	color:#767676;
+}
+
+.holidays, .events{
+		display:block;
+		float:left;
+		width:100%;
+		margin:10px 0 0 0;
+}
+
+.holidays h1, .events h1{
+	display:block;
+	float:left;
+	font:30px "Courier New";
+	color:#f36363;
+	
+}
+
+
+.holidays h1:hover, .events h1:hover{
+		color:#767676;
+}
+

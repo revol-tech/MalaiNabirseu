@@ -92,6 +92,12 @@ class PagesController < ApplicationController
       format.html
       format.js
       end
+
+		def gallary
+		@children = ChildrenSlider.all()
+		@news = News.all()
+  	end
+
   end
 
 
