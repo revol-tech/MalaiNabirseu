@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>MalaiNabirseu</title>
-
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
   <%= stylesheet_link_tag    "application","banner","aboutus","children","style","slidersized","footer","image_slider","lower_content","gallary","get_involved","navigation","news","news_events","pages","uppercontent","events","donate","contact","what_we_do" %>
 
 
@@ -15,7 +16,7 @@
 
 
 </head>
-<body class="home">
+<body  onload="initialize()">
 
 <%= yield %>
 
