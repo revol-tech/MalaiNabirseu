@@ -1,9 +1,0 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  what_we_do_image: MyString
-  what_we_do_desc: MyString
-
-two:
-  what_we_do_image: MyString
-  what_we_do_desc: MyString

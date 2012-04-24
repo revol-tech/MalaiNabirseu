@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
   def index
-   	 @whoweare = WhoWeAre.all()
-     	 @whatwedo = WhatWeDo.all()
-     	 @howtohelp = HowToHelp.all()
+   
+     
+   
     @children = ChildrenSlider.all()
     @banner=Banner.all()
     @news	 = News.order("news_desc").page(params[:page]).per(2)

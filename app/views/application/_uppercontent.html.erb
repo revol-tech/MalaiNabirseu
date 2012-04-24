@@ -8,14 +8,13 @@
 								<a class="more_red" href="/pages/about_us"></a>
 						</div>		<!--end of upper_image-->
 						<div class="content_image">
-                 <% @whoweare.each do |t| %>
-									  <%= image_tag "#{t.who_image}", :width=>"260",:height=>"auto"%>
-								 <%end%>
+                <%= image_tag "what we do.png" %>
+          
             </div>	<!--end of content_image-->
 					  <div class="content_text">
-							   <% @whoweare.each do |t| %>
-									   <p><%= t.who_desc%></p>
-									<%end%>
+							  
+									   <p>We believe that children belong and thrive in a family-environment. All our projects seek to provide orphans with loving family-style care. Helping and loving these abandoned and vurnerable children is our duty.</p>
+								
              </div>
           </div>	 <!--end of content-->
 					
@@ -25,14 +24,12 @@
 								<a class="more_blue" href="/pages/what_we_do"></a>
 						 </div>
              <div class="content_image">
-								<% @whatwedo.each do |t| %>
-									 <%= image_tag "#{t.what_we_do_image}", :width=>"260",:height=>"auto"%>
-								<%end%>
+								<%= image_tag "who we are.png" %>
 						 </div>
              <div class="content_text">
-				        <% @whatwedo.each do |t| %>
-									  <p><%= t.what_we_do_desc%></p>
-								<%end%>
+				      
+									  <p>We think education and health is primary necessity for growth of the children. We believe propor education and sanitation plays vital role in being better and safe future and long life span respectively</p>
+							
 	             </div>	<!--end of content_text-->
          </div>	 <!--end of content-->
        <div class="content" style="margin:30px 0 0 0">
@@ -41,14 +38,12 @@
 								<a  class="more_yellow" href="/pages/get_involved"></a>
 						</div>
             <div class="content_image">
-							<% @howtohelp.each do |t| %>
-								 <%= image_tag "#{t.how_image}", :width=>"260",:height=>"auto"%>
-							<%end%>
+					<%= image_tag "how to help.png" %>
 						</div>
             <div class="content_text">
-				         <% @howtohelp.each do |t| %>
-									  <p><%= t.how_desc%></p>
-									<%end%>
+				     
+									  <p>Organization that has been helping morally and economically for the best growth of these children. Your involvement can change their life.</p>
+							
 	           </div>	<!--end of content_text-->
         </div>	 <!--end of content-->
 
