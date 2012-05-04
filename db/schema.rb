@@ -69,31 +69,10 @@ ActiveRecord::Schema.define(:version => 20120229143524) do
     t.datetime "updated_at"
   end
 
-  create_table "how_to_helps", :force => true do |t|
-    t.string   "how_image"
-    t.string   "how_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "news", :force => true do |t|
     t.string   "news_image"
     t.string   "news_title"
     t.string   "news_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "what_we_dos", :force => true do |t|
-    t.string   "what_we_do_image"
-    t.string   "what_we_do_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "who_we_ares", :force => true do |t|
-    t.string   "who_image"
-    t.string   "who_desc"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -309,11 +309,11 @@ $.fn.jCarouselLite = function(o) {
 //-----------------------------------------------------------------------------
                                                                                //
 		    ul.hover(function(){
-		        console.log('234234');//
+
 //		        sliding = ul.data('sliding')
 				    clearInterval(sliding);                                 //
 			    },function(){
-			      console.log('dasdfasdf');
+
 //			      if(o.auto){
 			        sliding = setInterval(function() {                                 //
 					      go(curr+o.scroll);                                               //
@@ -368,7 +368,7 @@ $.fn.jCarouselLite = function(o) {
                     animCss == "left" ? { left: -(curr*liSize) } : { top: -(curr*liSize) } , o.speed, o.easing,
                     function() {
                         if(o.showInfo){
-                        //console.log(li)
+
                             li
                               .children('.img_name')
                               .fadeIn(o.speed);
