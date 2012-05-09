@@ -10,6 +10,7 @@
 
 
 #footer_content{
+	display:block;
   margin:0 auto;
   width:960px;
 }
@@ -17,9 +18,9 @@
 
 
 #main_footer{
-display:block;
-margin:10px 0 0 0;
-float:left;
+	display:block;
+	margin:10px 0 0 0;
+	float:left;
 
 }
 
@@ -33,6 +34,7 @@ float:left;
 
 
 #main_footer a{
+	display:block;
   color:#909090;
   font-size:12px;
 	text-decoration:none;
@@ -44,6 +46,7 @@ float:left;
 
 
 #main_footer .text{
+	display:block;
   font-size:13px;
   color:#b8b4a8;
 	font-weight:bold;
@@ -70,6 +73,7 @@ color:#f36363;
 
 
 #sub_footer{
+	display:block;
    margin:0 auto;
 	 width:960px;
 }
@@ -86,7 +90,7 @@ color:#f36363;
    width:285px;
 	 display:block;
    float:left;
-padding:10px 0 7px 0;
+	 padding:10px 0 7px 0;
 }
 #owner{
 

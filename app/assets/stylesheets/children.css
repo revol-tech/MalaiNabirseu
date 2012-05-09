@@ -7,7 +7,7 @@
 }
 body{
 
-	font-family:"helvetica","Myriad Pro","Trebuchet MS", sans-serif;
+	font-family:"arial";
 	font-size:12px;
 }
 .cn_wrapper{
@@ -97,11 +97,11 @@ body{
 }
 
 .cn_content p{
-
-	margin-top:10px;
+	display:block;
+	margin:10px 10px 0 0;
 	overflow:hidden;
-	padding:0 10px 0 0px;
 	text-align:justify;
+	font-family: "arial";
 }
 
 a.cn_more{
@@ -110,6 +110,7 @@ a.cn_more{
 	bottom:0px;
 	width:470px;
 	background-color: #f36363;
+	display:block;
 }
 
 .cn_item{
@@ -154,11 +155,12 @@ a.cn_more{
 }
 
 .cn_list p{
-	height:74px;
+	height:71px;
 	padding-top:2px;
 	overflow:hidden;
 	border-top:1px solid #e0dcdd;
 	line-height:18px;
+	font-family: "arial";
 }
 
 .cn_nav{

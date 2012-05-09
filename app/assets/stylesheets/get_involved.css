@@ -1,4 +1,5 @@
 #main_getinvolved{
+	display:block;
   width:960px;
   margin:0 auto;
 	margin-top: 8px;
@@ -119,17 +120,11 @@
 
 
 #get_involved_text p {
-		font-family: Helvetica, Arial, sans-serif;
+		font-family: "arial";
 		font-size: 20px;
-		font-style: normal;
-		font-weight: normal;
 		text-transform: uppercase;
-		letter-spacing: normal;
 		line-height: 22px;
 		color: #42B2E0;
-
-
-
 }
 
 .add_block{
@@ -138,6 +133,7 @@
 		display:block;
 		margin:15px 0 0 0;
 		float:left;
+		display:block;
 }
 
 .add_block_content1,.add_block_content2{
@@ -173,6 +169,7 @@
 			width:300px;
 			background-color: #deeff6;
 			float: left;
+			display:block;
 }
 
 
@@ -234,7 +231,10 @@
 }
 
 /*ali get ivolved slider*/
+
+
 #slider_get {
+	display:block;
   width: 960px;
   margin: 22px auto;
   position: relative;
@@ -245,6 +245,7 @@
 		float:left;
     margin: 0 40px 0 0;
     width: 281px;
+		display:block;
 
 }
 .scroll {
@@ -374,6 +375,7 @@
 	position:absolute;
 	top:-12px;
 	right:-12px;
+	display:block;
 }
 #button
 {

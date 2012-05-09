@@ -19,32 +19,27 @@
 		float:left;
 		width:598px;
 		margin: 0 0 0 0px;
-overflow:hidden;
-min-height:205px;
-border-bottom:5px solid #C0DADE;
+		overflow:hidden;
+		min-height:205px;
+		border-bottom:5px solid #C0DADE;
 }
 
 .what_we_text h1{
-	
-
 		 color: #F36363;
     display: block;
     float: left;
     font-size: 38px;
     font-weight: bold;
-
     position: relative;
-    top: -10px;
+    top: -8px;
     width: 100%;
 }
 
 .what_we_text p{
-color: #777978;
+		color: #777978;
     display: block;
     float: left;
     font: 13px/18px 'Arial';
-
-
     width: 598px;
 }
 

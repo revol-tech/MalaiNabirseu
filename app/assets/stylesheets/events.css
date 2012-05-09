@@ -6,7 +6,7 @@
 		border:1px solid #FCC956;
 		border-top:none;
 		float:left;
-		height:690px;
+		height:675px;
 		overflow:auto;
 
 }
@@ -15,9 +15,9 @@
 .news_events_border h1{
 		display:block;
 		padding:0px 0 20px 0;
-	color:#777978;
-float:left;
-width:100%;
+		color:#777978;
+		float:left;
+		width:100%;
 }
 
 .news_events_content{
@@ -52,7 +52,6 @@ width:100%;
 			display:block;
 			float:left;
 			width:160px;
-			float:left;
 }
 
 .news_events_name{

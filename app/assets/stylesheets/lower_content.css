@@ -14,15 +14,19 @@
   margin:0 auto;
 }
 
+
 .low_block_1{
-display:block;
-float:left;
-margin:0 15px 0 0;
-width:635px;
+	display:block;
+	float:left;
+	margin:0 15px 0 0;
+	width:635px;
 }
+
+
 .fb_image {
     padding: 15px 0 10px 14px;
 }
+
 
 #facebook_like{
     background-color: #FFFFFF;

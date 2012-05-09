@@ -19,10 +19,12 @@
 }
 
 .news_image{
-				height: 115px;
+				height: 102px;
 				width: 310px;
 				float:left;
 				display: block;
+				margin-bottom:26px;
+				display:block;
 }
 
 
@@ -37,32 +39,40 @@
     float: right;
     width: 175px;
 		display: block;
+		margin:0 10px 0 0;
 }
 
 .strong{
 		font-size:12px;
 		color:#ee5e75;
 		font-size: 12px;
-		height:30px;
+		height:27px;
 		overflow:hidden;
 		display: block;
-		margin: 0 5px 0 0;
+		
 }
+
+.strong h2{
+ display:block;
+ font:12px "arial";
+}
+
+
 .image{
-  float:left;
-  border:5px solid #e8e8e8;
+   float:left;
+   border:5px solid #e8e8e8;
    width:95px;
    height:92px;
-   margin:0 0 0 15px;
+   margin:0 0 0 10px;
 	display: block;
 }
 
 .latest_news{
-			font-family: Helvetica, Arial, sans-serif;
+			font-family: "arial";
 			font-size:11px;
 			color: #7b7b7b;
-			margin: 14px 10px 0 0;
-			height:41px;
+			margin: 6px 0px 0 0;
+			height:45px;
 			overflow:hidden;
 			display: block;
 			text-align:justify;
@@ -70,19 +80,21 @@
 
 .read_more{
 		float:right;
-		 font: 11px "Courier New";
+		 font: 9px "arial";
 		display:block;
-		padding:5px 10px 0 0;
+		padding:20px 10px 0 0;
 }
 
 .read_more a:hover{
 			color:#FF0000;
+			text-decoration:underline;
 }
 
 .read_more a{
 			color: #ee5e75;
 			text-decoration:none;
 }
+
 
 .freinds {
     float: left;
@@ -97,9 +109,9 @@
 
 .pagination{
 	display:block;
-	float:left;
-	width:295px;
-	margin:0 0 0 15px;
+	float:right;
+	width:auto;
+	margin:19px 10px 0 0;
 	color:	#A52A2A;
 }
 
