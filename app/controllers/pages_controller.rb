@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
   def index
-   
-     
-   
+
+
+
     @children = ChildrenSlider.all()
     @banner=Banner.all()
     @news	 = News.order("news_desc").page(params[:page]).per(2)
@@ -82,6 +82,13 @@ class PagesController < ApplicationController
   end
 
 	 def contact
+
+	@children = ChildrenSlider.all()
+			@news	 = News.order("news_desc").page(params[:page]).per(2)
+    respond_to do |format|
+      format.html
+      format.js
+      end
   end
 
 	def donate

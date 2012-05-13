@@ -3,15 +3,20 @@
      <div id="sub_lower_content">
 <div class="low_block_1">
 
- <%= render 'news' %>
+ <%= render 'news_display' %>
 <%= render 'get_involved'%>
 
 <div class="add_block">
 		<div class="add_block_content1">
+			<span>Malai Nabirsue Bal Griha is committed to providing vulnerable children with a future by providing shelter, education and most importantly, love. We are so glad that you have chosen to join us in this journey.
+			</span>
+		<div class="read_more" style="padding:115px 8px 0 0;"><a target="_blank" href="http://www.forgetmenot.org.au/projects-nepal.php">read more</a></div>
 		</div>
 		<div class="add_block_content2">
 		</div>
 		<div class="add_block_content3">
+				<div id="map_canvas" style="width:185px; height:232px; margin:8px;"></div>
+
 		</div>
 </div>
 </div>
