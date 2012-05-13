@@ -13,9 +13,10 @@
 		<div class="read_more" style="padding:115px 8px 0 0;"><a target="_blank" href="http://www.forgetmenot.org.au/projects-nepal.php">read more</a></div>
 		</div>
 		<div class="add_block_content2">
+			<%= image_tag "banner.png",:class=>"lower_banner" %>
 		</div>
 		<div class="add_block_content3">
-				<div id="map_canvas" style="width:185px; height:232px; margin:8px;"></div>
+				<div id="map_canvas" style="width:181px; height:228px; margin:10px;"></div>
 
 		</div>
 </div>
