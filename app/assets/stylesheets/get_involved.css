@@ -143,9 +143,7 @@
 		margin:0 15px 0 0;
 		float:left;
 		background-color:#fff;
-		 box-shadow: 0 0 13px 0 #767676 inset;
-	  -webkit-box-shadow: 0 0 13px 0 #767676 inset;
-		-moz-box-shadow: 0 0 13px 0 #767676 inset;
+
 
 }
 
@@ -258,7 +256,7 @@
 
  	height: 250px;
   width: 640px; /* change to 560px if not using JS to remove rh.scroll */
-	
+
 }
 
 .volunteerh1{

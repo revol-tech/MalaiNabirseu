@@ -56,15 +56,15 @@
 }
 
 #contact_shadow{
-display:block;
-width:960px;
-height:150px;
-float:left;
-background-color:#fff;
--moz-box-shadow: 0 0 8px #888888;
--webkit-box-shadow: 0 0 8px #888888;
-box-shadow: 0 0 8px #888888;
-margin:50px 0 0 0;
+	display:block;
+	width:960px;
+	height:150px;
+	float:left;
+	background-color:#fff;
+	-moz-box-shadow: 0 0 8px #888888;
+	-webkit-box-shadow: 0 0 8px #888888;
+	box-shadow: 0 0 8px #888888;
+	margin:50px 0 0 0;
 }
 
 #contact_us_image{

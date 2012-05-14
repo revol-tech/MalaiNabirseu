@@ -24,8 +24,8 @@
 
 .add_block_content1 span{
 	display:block;
-	padding:10px;
-	font:11px "arial";
+	padding:35px 10px 10px 10px;
+	font:11px/18px "arial";
 	color:#7b7b7b;
 	width:181px;
 	text-align:justify;
@@ -48,8 +48,8 @@
 #facebook_like{
     background-color: #FFFFFF;
     box-shadow: 0 0 13px 0 #767676 inset;
-		-webkit-box-shadow: 0 0 13px 0 #767676 inset;
-		-moz-box-shadow: 0 0 13px 0 #767676 inset;
+    -webkit-box-shadow: 0 0 13px 0 #767676 inset;
+    -moz-box-shadow: 0 0 13px 0 #767676 inset;
     display: block;
     float: right;
     width: 310px;

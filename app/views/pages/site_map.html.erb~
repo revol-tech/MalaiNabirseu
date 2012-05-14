@@ -1,0 +1,58 @@
+<div id="wrapper">
+	<%= render 'navigation'%>
+</div>
+<div id="site_map_content">
+		<div id="site_map">
+
+			<h1> site Map</h1>
+		</div>
+
+		<div id="site_map_home">
+			<div class="site_index">
+
+			<ul>
+					<li class="site_home">home</li>
+										<li><a href="/pages/index">home</a></li>
+										<li><a href="/pages/about_us">about us</a></li>
+										<li><a href="/pages/get_involved">get_involved</a></li>
+										<li><a href="/pages/children">children</a></li>
+										<li><a href="/pages/events">events</a></li>
+										<li><a href="/pages/what_we_do">what_we_do</a></li>
+										<li><a href="/pages/donate">donate</a></li>
+										<li><a href="/pages/contact">contact</a></li>
+										<li><a href="/pages/about_us">who_we_are</a></li>
+										<li><a href="/pages/get_involved">how_to_help</a></li>
+										<li><a href="/pages/events">latest news</a></li>
+										<li><a href="/pages/index#">newsletter</a></li>
+										<li><a href="/pages/get_involved">campaign</a></li>
+										<li><a href="/pages/get_involved">volunteer</a></li>
+										<li><a href="/pages/get_involved">donate</a></li>
+
+			</ul>
+		</div>
+
+
+<div class="site_index">
+			<ul>
+					<li class="site_home">get involved</li>
+							<li><a href="/pages/get_involved#files">volunteer</a></li>
+							<li><a href="/pages/get_involved#editor">our compaign</a></li>
+							<li><a href="/pages/get_involved#preview">our fundraise</a></li>
+							<li><a href="/pages/get_involved#css">donate</a></li>
+							<li><a href="/pages/get_involved#">newsletter</a></li>
+				</ul>
+</div>
+
+<div class="site_index">
+			<ul>
+					<li class="site_home">donate</li>
+							<li><a href="/pages/donate">donation</a></li>
+							<li><a href="/pages/donate">sponsor</a></li>
+
+				</ul>
+</div>
+</div>
+<div class="line_image_border1"> </div>
+</div>
+<%= render 'lowercontent'%>
+<%= render 'footer'%>

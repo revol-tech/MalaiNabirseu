@@ -79,6 +79,13 @@ class PagesController < ApplicationController
 
 
 	 def site_map
+			@children = ChildrenSlider.all()
+			@news	 = News.order("news_desc").page(params[:page]).per(2)
+    respond_to do |format|
+      format.html
+      format.js
+      end
+
   end
 
 	 def contact

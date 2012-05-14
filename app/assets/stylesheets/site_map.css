@@ -1,0 +1,64 @@
+#site_map_content{
+	display:block;
+	margin:0 auto;
+	width:960px;
+}
+
+#site_map{
+	display:block;
+	float:left;
+	width:960px;
+
+}
+
+#site_map h1{
+	display:block;
+	float:left;
+	font:30px "arial";
+	color:#777978;
+	text-transform:uppercase;
+}
+
+
+
+#site_map_home{
+	display:block;
+	margin: 0  0;
+	width:960px;
+	float:left;
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+
+
+#site_map_home ul{
+		list-style:none;
+		float:left;
+}
+
+.site_home{
+ display:block;
+ float:left;
+ font-weight:bold;
+	font-size:20px;
+ color:#777978;
+margin:0 0 10px 0;
+}
+
+
+#site_map_home a{
+
+	text-decoration:none;
+	color:#777978;
+	font:12px/18px "arial";
+}
+
+#site_map_home a:hover{
+ text-decoration:underline;
+}
+
+.site_index{
+		display:block;
+		float:left;
+		width:320px;
+}
