@@ -79,10 +79,13 @@
 	display:block;
 	font:24px "arial";
 	color:#42b2e0;
+	margin: 20px 0 0 10px;
+
 	text-shadow: 1px 1px white, -1px -1px #444;
 	cursor:pointer;
 }
 
 #contact_us_image h3:hover{
 	color:#2797C5;
+	text-decoration:underline;
 }

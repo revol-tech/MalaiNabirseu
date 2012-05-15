@@ -59,6 +59,7 @@ color:#f36363;
 
 #main_footer a:hover{
 			color:#fff;
+			text-decoration:underline;
 }
 
 
@@ -136,11 +137,11 @@ color:#f36363;
 
 .facebook:hover {
     background: url("socialNetwork_Btn_Hover.png") no-repeat left top;
-    
+
 }
 .twitter:hover {
     background: url("socialNetwork_Btn_Hover.png") no-repeat left bottom;
-    
+
 }
 
 .twitter {
@@ -154,6 +155,7 @@ color:#f36363;
 
 #powered_by a:hover{
  color:#fff;
+
 }
 
 
@@ -174,7 +176,7 @@ margin:0 0 0 3px;
 
 .site a:hover{
 				color:#fff;
-
+			text-decoration:underline;
 }
 
 
