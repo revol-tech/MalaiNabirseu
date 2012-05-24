@@ -1,0 +1,124 @@
+<div id="wrapper">
+ <%= render 'navigation'%>
+
+	<div class="main_donate_Block">
+
+					<div class="donate_header">
+							<h1>Make a Donation</h1>
+
+					</div>
+					<div class="donate_block" >
+							<div id="main_title">
+
+
+							</div>
+									<div class="donate_content">
+										<div class="block_donation">
+											<div class="block_content">
+
+														<div class="block_title">
+																<h1>general donation</h1>
+														</div>
+														<div class="block_text">
+														<p>
+
+
+Supporters like you help us provide housing and services to orphaned and poor children in need. Your dollars may go towards giving a child a night of rest at our emergency shelter, covering the cost of the light bill at one of our transitional homes, or providing much needed counseling to a child who has witnessed abuse. </p>
+														</div>
+												<div class="title_button1">
+														     <!--pop up rendered from donatepopup partial-->
+            <a href="#" class="donate_button" id="button"></a>
+               <%= render 'donatepopup'%>
+          <!--pop up rendered from donatepopup partial-->
+														<div class="button_text">
+																<p>( <span>Your donation will make a difference in the life of a children.</span>)</p>
+														</div>
+												</div>
+										</div>
+														<div class="donate_image">
+														</div>
+												</div>
+											<div class="block_donation">
+										<div class="block_content">
+														<div class="block_title">
+																<h1>eduacation donation</h1>
+														</div>
+														<div class="block_text">
+														<p>Education Program sponsors the education of over 21 orphaned and rural children in Kathmandu, from preschool through college. We are committed to helping as many children as possible to achieve the dream of an education. Our education program aims to equip children for the brightest future possible!</p>
+														</div>
+														<div class="title_button2">
+														 <!--pop up rendered from donatepopup partial-->
+            <a href="#" class="donate_button" id="button"></a>
+               <%= render 'donatepopup'%>
+          <!--pop up rendered from donatepopup partial-->
+														<div class="button_text">
+																<p>( <span>Education Donation will provide for the child’s fees, school supplies, and other educational materials the child may need.</span>)</p>
+														</div>
+												</div>
+										</div>
+														<div class="donate_image">
+														</div>
+													</div>
+											<div class="block_donation">
+											<div class="block_content">
+														<div class="block_title">
+																<h1>medical donation</h1>
+														</div>
+														<div class="block_text">
+														<p>The Medical Donation is  in alliance with related organizations, is dedicated to the development, dissemination and adherence to high standards in the delivery of medical products to under-orphaned children and disaster victims around the world.</p>
+														</div>
+														<div class="title_button">
+														 <!--pop up rendered from donatepopup partial-->
+            <a href="#" class="donate_button" id="button3"></a>
+               <%= render 'donatepopup'%>
+          <!--pop up rendered from donatepopup partial-->
+														<div class="button_text">
+																<p>( <span>Medical Donation will provide for the child’s routine doctor visits, immunizations, vaccinations, and any other medical needs the child may need.</span>)</p>
+														</div>
+												</div>
+										</div>
+														<div class="donate_image">
+														</div>
+												</div>
+
+
+
+
+			</div>
+										<div class="block_donation" style="border:none;">
+
+										<div class="block_content">
+														<div class="block_title">
+																<h1>sponsor a child</h1>
+														</div>
+														<div class="block_text">
+														<p>Sponsorship is a special kind of giving that creates a relationship between you and the community in which Save the Children is helping to create real and lasting change. It provides more than the satisfaction that comes with aid for improving the health and well-being of children; it delivers a special opportunity to witness young lives lifted over time. Through child sponsorship, two lives are changed forever: yours and the life of your sponsored child.</p>
+														</div>
+													<div class="title_sponsor">
+
+
+
+      <!--pop up rendered from donatepopup partial-->
+            <a href="#" class="sponsor_button" id="button4"></a>
+               <%= render 'donatepopup'%>
+          <!--pop up rendered from donatepopup partial-->
+
+														<div class="sponsor_text">
+															<p>( <span>Sponsorship provides more than the satisfaction that comes with helping improve the health and wellbeing of children.</span>)</p>
+														</div>
+												</div>
+										</div>
+														<div class="donate_image">
+														</div>
+											</div>
+									</div>
+
+</div>
+	<div class="line_image_border1">
+</div>
+
+			</div>
+</div>
+<%= render 'image_slider'%>
+ <%= render 'lowercontent'%>
+<%= render 'footer'%>

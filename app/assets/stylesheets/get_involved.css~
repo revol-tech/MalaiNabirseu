@@ -147,6 +147,39 @@
 
 }
 
+.forgetmenot{
+	display:block;
+	width:201px;
+	height:40px;
+}
+
+.add_block_content1 p{
+	display:block;
+	font:11px "arial";
+	padding:5px;
+	text-align:justify;
+	color:#777978;
+}
+
+.add_block_content1 a{
+	color:#EE5E75;
+	font:12px "arial";
+	margin:0px 0 0 138px;
+	text-decoration:none;
+}
+
+.add_block_content1 a:hover{
+	color:#FF0000;
+	text-decoration:underline;
+}
+
+
+.banner_copy{
+	display:block;
+	width:201px;
+	height:248px;
+}
+
 
 
 .add_block_content3{
