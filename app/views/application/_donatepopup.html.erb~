@@ -1,5 +1,5 @@
 <!--popup content-->
-	      <div id="popupContainer" class="hidden">
+	      <div id="popupContainer" class=" 	">
 	        	<a id="close" class="hidden" title="close popup"></a>
 		         <h1 class="newsletter_signup">donate</h1>
 			<div id="newsletter_text">

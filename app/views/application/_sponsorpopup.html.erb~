@@ -1,9 +1,11 @@
 <!--popup content-->
-	      <div id="popupContainer" class="hidden">
-	        	<a id="close" class="hidden" title="close popup"></a>
-		         <h1 class="newsletter_signup">donate</h1>
+	      <div id="popupContainers" class="hidden">
+	        	<a id="closes" class="hiddens" title="closes popup"></a>
+		         <h1 class="newsletter_signup">sponsor</h1>
 			<div id="newsletter_text">
-				<p>A donation is a gift given by physical or legal persons, typically for charitable purposes and/or to benefit a cause. A donation may take various forms, including cash offering, services, new or used goods including clothing, toys, food, and vehicles. It also may consist of emergency, relief or humanitarian aid items, development aid support, and can also relate to medical care needs as i.e. blood or organs for transplant. Charitable gifts of goods or services are also called gifts in kind.</p>
+				<p>Sponsorship is a cash and/or in-kind fee paid to a property (typically in sports, arts, entertainment or causes) in return for access to the exploitable commercial potential associated with that property, according to IEG.
+
+While the sponsee (property being sponsored) may be nonprofit, unlike philanthropy, sponsorship is done with the expectation of a commercial return.</p>
 			</div>
 						<div class="form_block">
 								<div class="form_holder">
@@ -26,6 +28,6 @@
 
 
 	  </div>
-	       <div id="overlayEffect">
+	       <div id="overlayEffects">
          </div>
   <!--end popup content-->
