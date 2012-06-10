@@ -1,4 +1,10 @@
 MalaiNabirseu::Application.routes.draw do
+  get "donates/index"
+
+  get "donates/deliver"
+  
+  get "donates/create"
+
   get "main/index"
 
   get "news_events/news_details"
@@ -43,13 +49,17 @@ MalaiNabirseu::Application.routes.draw do
   get "pages/contact"
 	
 	 get "pages/gallary"
-
+	
+ 
+ 	resources :news_viewers
 
 	resources :pages do
     collection do
       get 'news_paginator'
     end
   end
+  
+   match '/donates/create' => 'donates#create'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

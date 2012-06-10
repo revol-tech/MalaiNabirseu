@@ -42,8 +42,11 @@ MalaiNabirseu::Application.routes.draw do
 
   get "pages/contact"
 	
+	 get "pages/gallary"
+ 
+ 	resources :news_viewers
+ 	resources :user_mailer
 
-	resources :pages
 	resources :pages do
     collection do
       get 'news_paginator'

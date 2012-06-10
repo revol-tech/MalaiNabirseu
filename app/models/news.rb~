@@ -1,7 +1,7 @@
 class News < ActiveRecord::Base
-	after_save :mail
+	before_save :test
 	
-	def mail
+	def test
 		UserMailer.registration_confirmation
 	end
 end
