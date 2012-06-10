@@ -3,10 +3,10 @@
 	        	<a id="close" class="hidden" title="close popup"></a>
 		         <h1 class="newsletter_signup">Newsletter Signup</h1>
 			<div id="newsletter_text">
-				<p>Please sign-up to get the latest news</p>
+				<p>If you have any Questions or Queries, please ask us!</p>
 			</div>
 						<div class="form_block">
-								<%= form_for @news_viewer do |t|%>
+						<%= form_for @news_viewer do |t|%>
 								<div class="form_holder">
 								    <label for="name">Name :</label>
 										<%= t.text_field :name%>
@@ -22,8 +22,8 @@
 						</div>
 						<%end%>
 				</div>
-                   
-                  
+
+
 	  </div>
 	       <div id="overlayEffect">
          </div>
