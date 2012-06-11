@@ -1,8 +1,14 @@
 class PagesController < ApplicationController
   def index
+<<<<<<< HEAD
 
 
 
+=======
+   	 @whoweare = WhoWeAre.all()
+     	 @whatwedo = WhatWeDo.all()
+     	 @howtohelp = HowToHelp.all()
+>>>>>>> develop
     @children = ChildrenSlider.all()
     @banner=Banner.all()
     @news	 = News.order("news_desc").page(params[:page]).per(2)
@@ -70,9 +76,15 @@ class PagesController < ApplicationController
       format.html
       format.js
       end
+<<<<<<< HEAD
 
   end
 
+=======
+		@news_viewer = NewsViewer.new()
+	end
+	
+>>>>>>> develop
   def how_to_help
   end
 
@@ -99,6 +111,7 @@ class PagesController < ApplicationController
   end
 
 	def donate
+		@news_viewer = NewsViewer.new()
 		@children = ChildrenSlider.all()
 		@news = News.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)

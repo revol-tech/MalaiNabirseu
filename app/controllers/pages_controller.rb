@@ -1,8 +1,6 @@
 class PagesController < ApplicationController
   def index
-
-
-
+  	@news_viewer =NewsViewer.new()
     @children = ChildrenSlider.all()
     @banner=Banner.all()
     @news	 = News.order("news_desc").page(params[:page]).per(2)
@@ -31,6 +29,7 @@ class PagesController < ApplicationController
   end
 
   def get_involved
+  	@news_viewer =NewsViewer.new()
 		@children = ChildrenSlider.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
@@ -70,9 +69,9 @@ class PagesController < ApplicationController
       format.html
       format.js
       end
-
-  end
-
+		@news_viewer = NewsViewer.new()
+	end
+	
   def how_to_help
   end
 
@@ -99,6 +98,7 @@ class PagesController < ApplicationController
   end
 
 	def donate
+		@news_viewer = NewsViewer.new()
 		@children = ChildrenSlider.all()
 		@news = News.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
