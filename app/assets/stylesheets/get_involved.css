@@ -143,12 +143,26 @@
 		margin:0 15px 0 0;
 		float:left;
 		background-color:#fff;
-		 box-shadow: 0 0 13px 0 #767676 inset;
-	  -webkit-box-shadow: 0 0 13px 0 #767676 inset;
-		-moz-box-shadow: 0 0 13px 0 #767676 inset;
+		
 
 }
 
+
+.forgemenot{
+	display:block;
+	float:left;
+	width:181px;
+	height:40px;
+	margin:0 10px 0 10px;
+}
+
+.add_block_content1 p{
+	display:block;
+	float:left;
+	font:12px/18px "arial";
+	color:#777978;
+	padding:10px;
+}
 
 
 .add_block_content3{
@@ -157,10 +171,7 @@
 		display:block;
 		margin:0 0px 0 0;
 		float:left;
-		background-color:#fff;
-		box-shadow: 0 0 13px 0 #767676 inset;
-	  -webkit-box-shadow: 0 0 13px 0 #767676 inset;
-		-moz-box-shadow: 0 0 13px 0 #767676 inset;
+		
 
 }
 
@@ -177,9 +188,9 @@
     margin: 22px 0px 0px 0px;
     display:block;
     height: 26px;
-		width:281px;
-		background:url('get_Involved_Links.png') no-repeat 0px 0px;
-		float: left;
+    width:281px;
+   background:url('get_Involved_Links.png') no-repeat 0px 0px;
+   float: left;
 }
 
 
@@ -196,13 +207,13 @@
 }
 .campaign:hover{
 
-			background:url('get_Involved_Links_Hover.png') no-repeat 0px -36px;
+	background:url('get_Involved_Links_Hover.png') no-repeat 0px -36px;
 }
 
 .volunteer{
  	margin: 10px 0px 0px 0px;
   display:block;
-  height: 26px;
+ 	height: 26px;
 	width:136px;
 	background:url('get_Involved_Links.png') no-repeat right -36px;
 	float: right;
@@ -210,7 +221,7 @@
 }
 .volunteer:hover{
 
-			background:url('get_Involved_Links_Hover.png') no-repeat right -36px;
+	background:url('get_Involved_Links_Hover.png') no-repeat right -36px;
 
 
 }
@@ -225,7 +236,7 @@
 }
 .donate:hover{
 
-			background:url('get_Involved_Links_Hover.png') no-repeat 0px bottom;
+	background:url('get_Involved_Links_Hover.png') no-repeat 0px bottom;
 
 
 }
@@ -241,8 +252,8 @@
   float:left;
 }
 #slider_get ul{
-		list-style:none;
-		float:left;
+   list-style:none;
+   float:left;
     margin: 0 40px 0 0;
     width: 281px;
 		display:block;

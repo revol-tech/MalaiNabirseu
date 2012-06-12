@@ -69,13 +69,6 @@ ActiveRecord::Schema.define(:version => 20120424053513) do
     t.datetime "updated_at"
   end
 
-  create_table "how_to_helps", :force => true do |t|
-    t.string   "how_image"
-    t.string   "how_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "news", :force => true do |t|
     t.string   "news_image"
     t.string   "news_title"
@@ -87,20 +80,6 @@ ActiveRecord::Schema.define(:version => 20120424053513) do
   create_table "news_viewers", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "what_we_dos", :force => true do |t|
-    t.string   "what_we_do_image"
-    t.string   "what_we_do_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "who_we_ares", :force => true do |t|
-    t.string   "who_image"
-    t.string   "who_desc"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

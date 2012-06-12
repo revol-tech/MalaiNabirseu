@@ -20,6 +20,7 @@ class PagesController < ApplicationController
   end
 
   def about_us
+		@news_viewer =NewsViewer.new()
 		@children = ChildrenSlider.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
@@ -40,6 +41,7 @@ class PagesController < ApplicationController
   end
 
   def events
+		@news_viewer =NewsViewer.new()
 		@children = ChildrenSlider.all()
     @news_top =News.all()
     @news	 = News.order("news_desc").page(params[:page]).per(2)
@@ -50,6 +52,7 @@ class PagesController < ApplicationController
   end
 
   def children
+		@news_viewer =NewsViewer.new()
 		@children = ChildrenSlider.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
@@ -63,6 +66,7 @@ class PagesController < ApplicationController
   end
 
   def what_we_do
+			@news_viewer =NewsViewer.new()
 			@children = ChildrenSlider.all()
 			@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
@@ -78,6 +82,7 @@ class PagesController < ApplicationController
 
 
 	 def site_map
+			@news_viewer =NewsViewer.new()
 			@children = ChildrenSlider.all()
 			@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
@@ -88,7 +93,7 @@ class PagesController < ApplicationController
   end
 
 	 def contact
-
+	@news_viewer =NewsViewer.new()
 	@children = ChildrenSlider.all()
 			@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|

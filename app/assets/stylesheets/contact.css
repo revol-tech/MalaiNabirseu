@@ -5,87 +5,60 @@
 
 }
 
+
+.contact_us_title{
+	display:block;
+	float:left;
+	width:920px;
+	margin:20px 20px 0 20px;
+}
+
 #contact_title{
 	display:block;
 	width:409px;
 	height:33px;
 	background:url('malaiNabirseuBalGriha_Img.png') no-repeat left top;
-	margin:20px 0 0 0;
 	float:left;
+}
+
+#contact_content p{
+	
+	float:left;
+	font:12px/18px "arial";
+	color:#777978;
 }
 
 #contact_content{
 	display:block;
-	width:918px;
 	float:left;
 	margin:20px 0 0 0px;
+	width:409px;
 }
 
 .contact_us{
 	display:block;
 	float:left;
-	padding:10px;
-	width:98%;
-	height:87%
+	width:511px;
+	
+	
 }
 
-.contact_us h1{
-	display:block;
+.contact_us label{
+	width:100%;
 	float:left;
-	font:24px "arial";
-	text-transform:uppercase;
+	color:#f36363;
+	font-size:25px;
+	line-height:35px;
+}
+
+
+.contact_us span{
 	color:#777978;
 }
 
-.contact_label{
-	display:block;
-	float:left;
-	width:100%;
-}
 
-#contact_button{
-	display:block;
-	margin:20px 0 0 0;
-	float:left;
-	width:100%
-}
 
-.button_contact{
-	display:block;
-	float:right;
-}
 
-#contact_shadow{
-	display:block;
-	width:960px;
-	height:150px;
-	float:left;
-	background-color:#fff;
-	-moz-box-shadow: 0 0 8px #888888;
-	-webkit-box-shadow: 0 0 8px #888888;
-	box-shadow: 0 0 8px #888888;
-	margin:50px 0 0 0;
-}
 
-#contact_us_image{
-	display:block;
-	width:122px;
-	height:42px;
-	float:right;
 
-}
 
-#contact_us_image h3{
-	display:block;
-	font:24px "arial";
-	color:#42b2e0;
-	margin: 20px 0 0 10px;
-
-	text-shadow: 1px 1px white, -1px -1px #444;
-	cursor:pointer;
-}
-
-#contact_us_image h3:hover{
-	color:#2797C5;
-	text-decoration:underline;
-}
