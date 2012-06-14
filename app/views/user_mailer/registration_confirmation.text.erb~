@@ -1,6 +1,0 @@
-<%binding.pry%>
-
-<%= News.last.news_title%>
-</br>
-</br>
-<%= News.last.news_desc%>

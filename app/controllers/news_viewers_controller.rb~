@@ -1,7 +1,0 @@
-class NewsViewersController < ApplicationController
-	def create
-		binding.pry
-		@news_viewer =NewsViewer.create(params[:news_viewer])
-		@news_viewer.save!
-	end
-end
