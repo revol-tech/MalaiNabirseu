@@ -15,7 +15,14 @@ class UserMailer < ActionMailer::Base
 	end
 	def donation_message(input)
 	@input = input
-		mail(:to => "shobhabstha@gmail.com", :subject => "donate").deliver do |format|
+		mail(:to => "malainabirseu@gmail.com", :subject => "donate").deliver do |format|
+  		format.html
+		end
+	end
+	
+	def sponser(input)
+	@input = input
+		mail(:to => "malainabirseu@gmail.com", :subject => "Sponser").deliver do |format|
   		format.html
 		end
 	end

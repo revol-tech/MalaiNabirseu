@@ -1,7 +1,7 @@
 MalaiNabirseu::Application.routes.draw do
   get "donates/index"
 
-  get "donates/deliver"
+  get "donates/sponser"
   
   get "donates/create"
 
@@ -60,6 +60,7 @@ MalaiNabirseu::Application.routes.draw do
   end
   
    match '/donates/create' => 'donates#create'
+   match '/donates/sponser' => 'donates#sponser'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

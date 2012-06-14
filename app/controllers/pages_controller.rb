@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def index
+  binding.pry
   	@news_viewer =NewsViewer.new()
     @children = ChildrenSlider.all()
     @banner=Banner.all()

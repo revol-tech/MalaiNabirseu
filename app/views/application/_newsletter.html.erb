@@ -1,5 +1,19 @@
 <!--popup content-->
-	      <div id="popupContainer" class="hidden">
+<% if flash[:notice] == "blank"%>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			alert("Please fill the form completely!!!")
+		});
+	</script>	
+<%end%>
+<% if flash[:notice] == "invalid email"%>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			alert("Pease check your email address and try again!")
+		});
+	</script>	
+<%end%>
+ <div id="popupContainer" class="hidden">
 	        	<a id="close" class="hidden" title="close popup"></a>
 		         <h1 class="newsletter_signup">Newsletter Signup</h1>
 			<div id="newsletter_text">
