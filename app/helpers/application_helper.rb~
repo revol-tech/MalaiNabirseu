@@ -1,5 +1,0 @@
-module ApplicationHelper
-  def paginate_news
-     @news = News.order("news_desc").page(params[:page]).per(2)  
-  end
-end

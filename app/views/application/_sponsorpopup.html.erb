@@ -8,22 +8,15 @@
 While the sponsee (property being sponsored) may be nonprofit, unlike philanthropy, sponsorship is done with the expectation of a commercial return.</p>
 			</div>
 						<div class="form_block">
-								<div class="form_holder">
-								    <label for="name">Name :</label>
-										<input type="text" name="name" class="form_input">
-								</div>
-								<div class="form_holder">
-										<label for="email">Email :</label>
-										<input type="text" name="email" class="form_input">
-							</div>
-							<div class="form_holder">
-				    	     <label for="comment">Comment :</label>
-									<textarea type="text" class="textarea"></textarea>
-							</div>
-							<div class="form_holder">
-
-									<input type=""  class="submit_Btn">
-						</div>
+								<%= form_tag  ({:controller=>"donates", :action=>"sponser"}) do%>
+									<%= label_tag (:Name)%>
+									<%= text_field_tag(:name) %></br>
+									<%= label_tag (:Email)%>
+									<%= text_field_tag (:email)%></br>
+									<%= label_tag (:Comment)%>
+									<%= text_area_tag(:comment)%></br></br>
+									<%= submit_tag '',:class=>"submit_Btn"%>
+								<%end%>
 				</div>
 
 
