@@ -12,11 +12,11 @@ set :scm, :git
 
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :deploy_to, "/home/deploy/www/malainebirseu.com.np"
+set :deploy_to, "/home/deploy/www/malainabirseubalgriha.org.np"
 
-role :web, "malainebirseu.com.np"                          # Your HTTP server, Apache/etc
-role :app, "malainebirseu.com.np"                          # This may be the same as your `Web` server
-role :db,  "malainebirseu.com.np", :primary => true # This is where Rails migrations will run
+role :web, "malainabirseubalgriha.org.np"                          # Your HTTP server, Apache/etc
+role :app, "malainabirseubalgriha.org.np"                          # This may be the same as your `Web` server
+role :db,  "malainabirseubalgriha.org.np", :primary => true # This is where Rails migrations will run
 #role :db,  "your slave db-server here"
 set :user, "deploy"
 set :scm_username, 'revol-tech'
