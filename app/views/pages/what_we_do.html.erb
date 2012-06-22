@@ -7,37 +7,19 @@
 		<% @whatwedo.each do |t|%>
 		<div id="whatwedo">
 			<div class ="whatwedocontainer">
-			<div>
-				<%= image_tag "#{t.image}",:width=>"300",:class=>"whatwedoimage"%>
-			</div>
-			<div>
-				<h1 class="whatwedotitle"><%=t.title%></h1>
-				<p class="whatwedodesc"><%=t.desc%></p>
-			</div>
-			</div>
-		</div>
-		<%end%>
-		--start--
-						<div class="what_we_profile">
-
-					<div class="what_we_image">
-
-					<%= image_tag "bird.jpg",:class=>"what_we_name"  %>
-
-					</div>		<!--end of board_image---->
-
-					<div class="what_we_text">
-					<h1>Orphan Home Projects</h1>
-							<p>Malai Nabirseu Bal Griha seeks to provide a loving home for orphans and abandoned children in the Kathmandu Valley and surrounding areas. Through the love and personal care provided, these children become part of "Man's Big Family" - the ever-growing additions to a once family of four. Each child is given an education, medical attention, nutritious food, new clothing, school supplies, and multi-lingual language instruction. In addition, the Widows are taught life-changing handicraft skills.</p>
+				<div>
+					<%= image_tag "#{t.image}",:width=>"300",:class=>"whatwedoimage"%>
+					</div>
+						<div class="what_we_do_text">
+							<h1 class="whatwedotitle"><%=t.title%></h1>
+							<p class="whatwedodesc"><%=t.desc%></p>
+						</div>
+					</div>
 				</div>
-			</div>
-
-		
-		---end---
+			<%end%>
 		</div>
 		<div class="line_image_border1">
 		</div>
-
 </div>
  <%= render 'lowercontent'%>
 <%= render 'footer'%>

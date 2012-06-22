@@ -65,6 +65,9 @@
 
 .whatwedotitle{
 	margin: 0px 0px 0px 20px;
+	font-size:38px;
+	display:block;
+	font-weight:bold;
 }
 
 .whatwedodesc{
@@ -75,6 +78,20 @@
 #whatwedo div{
 	float:left
 }
+.what_we_do_text{
+   height:205px;
+   border-bottom:5px solid #CODADE;
+}
 .whatwedocontainer{
 	width:100%;
+	margin:20px 0;
+}
+.color_0{
+	color:#f36363;
+}
+.color_1{
+	color:#fcc956;
+}
+.color_2{
+	color:#40b4e3;
 }
