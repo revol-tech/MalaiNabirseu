@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120622065727) do
+ActiveRecord::Schema.define(:version => 20120622073525) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(:version => 20120622065727) do
   create_table "events", :force => true do |t|
     t.string   "event_image"
     t.string   "event_title"
-    t.string   "event_desc"
+    t.text     "event_desc",  :limit => 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(:version => 20120622065727) do
   create_table "news", :force => true do |t|
     t.string   "news_image"
     t.string   "news_title"
-    t.string   "news_desc"
+    t.text     "news_desc",  :limit => 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end

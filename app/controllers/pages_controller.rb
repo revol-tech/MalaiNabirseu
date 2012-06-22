@@ -1,8 +1,6 @@
 class PagesController < ApplicationController
   def index
   	@news_viewer =NewsViewer.new()
-    @children = ChildrenSlider.all()
-    @banner=Banner.all()
     @news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
       format.html
@@ -21,7 +19,6 @@ class PagesController < ApplicationController
 
   def about_us
 		@news_viewer =NewsViewer.new()
-		@children = ChildrenSlider.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
       format.html
@@ -31,7 +28,6 @@ class PagesController < ApplicationController
 
   def get_involved
   	@news_viewer =NewsViewer.new()
-		@children = ChildrenSlider.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
       format.html
@@ -42,7 +38,6 @@ class PagesController < ApplicationController
 
   def events
 		@news_viewer =NewsViewer.new()
-		@children = ChildrenSlider.all()
     @news_top =News.all()
     @news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
@@ -53,7 +48,6 @@ class PagesController < ApplicationController
 
   def children
 		@news_viewer =NewsViewer.new()
-		@children = ChildrenSlider.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
       format.html
@@ -67,7 +61,7 @@ class PagesController < ApplicationController
 
   def what_we_do
 			@news_viewer =NewsViewer.new()
-			@children = ChildrenSlider.all()
+			@whatwedo = WhatWeDo.all()
 			@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
       format.html
@@ -83,7 +77,6 @@ class PagesController < ApplicationController
 
 	 def site_map
 			@news_viewer =NewsViewer.new()
-			@children = ChildrenSlider.all()
 			@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
       format.html
@@ -94,7 +87,6 @@ class PagesController < ApplicationController
 
 	 def contact
 	@news_viewer =NewsViewer.new()
-	@children = ChildrenSlider.all()
 			@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
       format.html
@@ -104,7 +96,6 @@ class PagesController < ApplicationController
 
 	def donate
 		@news_viewer = NewsViewer.new()
-		@children = ChildrenSlider.all()
 		@news = News.all()
 		@news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
@@ -113,7 +104,6 @@ class PagesController < ApplicationController
       end
 
 		def gallary
-		@children = ChildrenSlider.all()
 		@news = News.all()
   	end
 

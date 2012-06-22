@@ -59,3 +59,22 @@
 		
 }
 
+.whatwedoimage{
+	border:5px solid #C0DADE;
+}
+
+.whatwedotitle{
+	margin: 0px 0px 0px 20px;
+}
+
+.whatwedodesc{
+	margin: 0px 0px 0px 20px;
+	width:588px;
+}
+
+#whatwedo div{
+	float:left
+}
+.whatwedocontainer{
+	width:100%;
+}
