@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ChildrenSliderTest < ActiveSupport::TestCase
+class WhatWeDoTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

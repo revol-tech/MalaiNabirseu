@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120424053513) do
+ActiveRecord::Schema.define(:version => 20120622065727) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -46,32 +46,10 @@ ActiveRecord::Schema.define(:version => 20120424053513) do
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
-  create_table "banners", :force => true do |t|
-    t.string   "image_path"
-    t.string   "banner_title"
-    t.string   "banner_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "children_sliders", :force => true do |t|
-    t.string   "child_image"
-    t.string   "child_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "events", :force => true do |t|
     t.string   "event_image"
     t.string   "event_title"
     t.string   "event_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "how_to_helps", :force => true do |t|
-    t.string   "how_image"
-    t.string   "how_desc"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -92,15 +70,9 @@ ActiveRecord::Schema.define(:version => 20120424053513) do
   end
 
   create_table "what_we_dos", :force => true do |t|
-    t.string   "what_we_do_image"
-    t.string   "what_we_do_desc"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "who_we_ares", :force => true do |t|
-    t.string   "who_image"
-    t.string   "who_desc"
+    t.string   "image"
+    t.string   "title"
+    t.text     "desc"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
