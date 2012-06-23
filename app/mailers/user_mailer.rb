@@ -1,15 +1,15 @@
 class UserMailer < ActionMailer::Base
 
 
-  default :from => "ryan@railscasts.com"
-  
+  default :from => "shobhabstha@gmail.com"
+
   def registration_confirmation
   	  @news_viewer = NewsViewer.all
-  	  
+
   	  @news_viewer.each do |t|
     		mail(:to => "#{t.email}", :subject => "News").deliver do |format|
     				format.text
-  				
+
     			end
   			end
 	end
@@ -19,7 +19,7 @@ class UserMailer < ActionMailer::Base
   		format.html
 		end
 	end
-	
+
 	def sponser(input)
 	@input = input
 		mail(:to => "malainabirseu@gmail.com", :subject => "Sponser").deliver do |format|
