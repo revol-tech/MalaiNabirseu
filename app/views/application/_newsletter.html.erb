@@ -23,11 +23,11 @@
 								<%= form_for @news_viewer do |t|%>
 								<div class="form_holder">
 								    <label for="name">Name :</label>
-										<%= t.text_field :name%>
+										<%= t.text_field 'name',:class=>"form_input" %>
 								</div>
 								<div class="form_holder">
 										<label for="email">Email :</label>
-										<%= t.text_field :email%>
+										<%= t.text_field 'email',:class=>"form_input" %>
 							</div>
 						<div class="form_holder">
 

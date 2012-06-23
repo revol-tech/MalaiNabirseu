@@ -8,13 +8,21 @@
 			</div>
 						<div class="form_block">
 								<%= form_tag  ({:controller=>"donates", :action=>"create"}) do%>
+							<div class="form_holder">
 									<%= label_tag (:Name)%>
-									<%= text_field_tag(:name) %></br>
+									<%= text_field_tag'name', nil,:class=>"form_input" %></br>
+							</div>
+							<div class="form_holder">
 									<%= label_tag (:Email)%>
-									<%= text_field_tag (:email)%></br>
+									<%= text_field_tag 'email',nil,:class=>"form_input"%></br>
+							</div>
+							<div class="form_holder">
 									<%= label_tag (:Comment)%>
-									<%= text_area_tag(:comment)%></br></br>
+									<%= text_area_tag'comment',nil,:class=>"form_input"%></br></br>
+							</div>
+							<div class="form_holder">
 									<%= submit_tag '',:class=>"submit_Btn"%>
+							</div>
 								<%end%>
 				</div>
 

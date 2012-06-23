@@ -64,27 +64,27 @@
 }
 
 .whatwedotitle{
-	margin: 0px 0px 0px 20px;
 	font-size:38px;
 	display:block;
 	font-weight:bold;
 }
 
 .whatwedodesc{
-	margin: 0px 0px 0px 20px;
-	width:588px;
+	color:#777978;
+	font:12px/18px "arial";
+	margin:10px 0 0 0;
 }
 
-#whatwedo div{
-	float:left
-}
+
 .what_we_do_text{
-   height:205px;
-   border-bottom:5px solid #CODADE;
+   float:left;
+	width:590px;
+   margin:0 0 0 20px;
 }
 .whatwedocontainer{
 	width:100%;
 	margin:20px 0;
+	float:left;
 }
 .color_0{
 	color:#f36363;
@@ -94,4 +94,12 @@
 }
 .color_2{
 	color:#40b4e3;
+}
+
+.whatwedo_image{
+
+	display:block;
+	float:left;
+	width:308px;
+	height:235px;
 }
