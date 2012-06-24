@@ -74,4 +74,5 @@ end
 
 before "deploy:update_code", "assets:compress_assets"
 after "deploy:update_code", "assets:upload_assets"
+after "deploy","deploy:migrate"
 after :deploy, 'deploy:cleanup','deploy:restart'
