@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
   def index
-  	@niraj = Niraj.all()
   	@news_viewer =NewsViewer.new()
     @news	 = News.order("news_desc").page(params[:page]).per(2)
     respond_to do |format|
